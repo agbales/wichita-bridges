@@ -10,7 +10,7 @@ const locations = bridge_data.map(function(b) {
 });
 
 var map = new google.maps.Map(document.getElementById('map'), {
-  zoom: 10,
+  zoom: 12,
   center: new google.maps.LatLng(37.697948, -97.314835),
   mapTypeId: google.maps.MapTypeId.ROADMAP
 });
