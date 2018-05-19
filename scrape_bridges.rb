@@ -17,8 +17,29 @@ table.search('tr').each do |tr|
     links[a.text] = a['href']
   end
   
+  got_coords = false
+  
+  if links['NBI report']
+    nbi = links['NBI report']
+    report = "https://bridgereports.com" + nbi
+    report_html = open(report)
+    sleep 1 until report_html
+    r = Nokogiri::HTML(report_html)
+    
+    lat = r.css('span.latitude').text.strip.to_f
+    long = r.css('span.longitude').text.strip.to_f
+    puts lat, long
+    got_coords = true
+  else
+    got_coords = true
+  end
+  
+  sleep 1 until got_coords == true
+  
   bridges.push(
     links: links,
+    latitude: lat,
+    longitude: long,
     carries: cells[1].text,
     crosses: cells[2].text,
     location: cells[3].text,
@@ -32,6 +53,7 @@ table.search('tr').each do |tr|
     suff_rating: cells[11].text.to_f,
     id: cells[12].text.to_i
   )
+  puts bridges
 end
 
 json = JSON.pretty_generate(bridges)

@@ -1,7 +1,9 @@
-[
+const bridge_data = [
   {
     "links": {
     },
+    "latitude": null,
+    "longitude": null,
     "carries": "Carries",
     "crosses": "Crosses",
     "location": "Location",
@@ -19,6 +21,8 @@
     "links": {
       "NBI report": "/1201069"
     },
+    "latitude": 37.68506,
+    "longitude": -97.18954,
     "carries": "127TH STREET EAST",
     "crosses": "SPRING BRANCH TRIB. NO.",
     "location": "127TH ST E .6 M S DOUGLAS",
@@ -36,6 +40,8 @@
     "links": {
       "NBI report": "/1200378"
     },
+    "latitude": 37.75334,
+    "longitude": -97.33599,
     "carries": "BROADWAY",
     "crosses": "CHISHOLM CREEK TRIB.",
     "location": "BROADWAY N. OF I-235",
@@ -53,6 +59,8 @@
     "links": {
       "NBI report": "/1200416"
     },
+    "latitude": 37.67007,
+    "longitude": -97.24445,
     "carries": "ROCK ROAD",
     "crosses": "ROCK RD SO TRIB GYPSUM C",
     "location": "ROCK ROAD AT GRAIL",
@@ -71,6 +79,8 @@
       "NBI report": "/1201162",
       "Bridgehunter": "//bridgehunter.com/41171"
     },
+    "latitude": 37.70213,
+    "longitude": -97.48078,
     "carries": "119TH STREET WEST",
     "crosses": "COWSKIN CREEK",
     "location": "119TH ST W .5 M N CENTRAL",
@@ -88,6 +98,8 @@
     "links": {
       "NBI report": "/1201143"
     },
+    "latitude": 37.69294,
+    "longitude": -97.29669,
     "carries": "RUTAN",
     "crosses": "THIRD STREET DRAIN",
     "location": "RUTAN AT EDGEMONT",
@@ -105,6 +117,8 @@
     "links": {
       "NBI report": "/1201060"
     },
+    "latitude": 37.71708,
+    "longitude": -97.34549,
     "carries": "18TH STREET NORTH",
     "crosses": "LITTLE ARKANSAS RIVER",
     "location": "18TH ST. N@ ARKANSAS AVE.",
@@ -122,6 +136,8 @@
     "links": {
       "NBI report": "/1201057"
     },
+    "latitude": 37.70477,
+    "longitude": -97.35804,
     "carries": "11TH STREET NORTH",
     "crosses": "LITTLE ARKANSAS RIVER",
     "location": "11TH ST N AT N RIVER BLVD",
@@ -139,6 +155,8 @@
     "links": {
       "NBI report": "/1201133"
     },
+    "latitude": 37.70266,
+    "longitude": -97.31826,
     "carries": "10TH STREET NORTH",
     "crosses": "WICHITA DRAINAGE CANAL",
     "location": "10TH ST AT I-135",
@@ -156,6 +174,8 @@
     "links": {
       "NBI report": "/1201137"
     },
+    "latitude": 37.71171,
+    "longitude": -97.32109,
     "carries": "15th Street North",
     "crosses": "Wichita Drainage Canal",
     "location": "15th at I-135",
@@ -173,6 +193,8 @@
     "links": {
       "NBI report": "/1200385"
     },
+    "latitude": 37.6914,
+    "longitude": -97.3531,
     "carries": "SENECA",
     "crosses": "ARKANSAS RIVER",
     "location": "SENECA AT MC LEAN BLVD",
@@ -190,6 +212,8 @@
     "links": {
       "NBI report": "/1201138"
     },
+    "latitude": 37.71536,
+    "longitude": -97.32205,
     "carries": "17TH STREET NORTH",
     "crosses": "WICHITA DRAINAGE CANAL",
     "location": "17TH ST AT I-135",
@@ -207,6 +231,8 @@
     "links": {
       "NBI report": "/1201132"
     },
+    "latitude": 37.69764,
+    "longitude": -97.31676,
     "carries": "MURDOCK",
     "crosses": "WICHITA DRAINAGE CANAL",
     "location": "MURDOCK AT I-135",
@@ -224,6 +250,8 @@
     "links": {
       "NBI report": "/1201055"
     },
+    "latitude": 37.69745,
+    "longitude": -97.34346,
     "carries": "Murdock",
     "crosses": "Little Arkansas River",
     "location": "Murdock at Waco",
@@ -241,6 +269,8 @@
     "links": {
       "NBI report": "/1201134"
     },
+    "latitude": 37.70444,
+    "longitude": -97.31885,
     "carries": "11th Street North",
     "crosses": "Wichita Drainage Canal",
     "location": "11th at I-135",
@@ -258,6 +288,8 @@
     "links": {
       "NBI report": "/1200993"
     },
+    "latitude": 37.65163,
+    "longitude": -97.29363,
     "carries": "ELMWOOD",
     "crosses": "DRY CREEK",
     "location": "ELMWOOD AT HILLSIDE",
@@ -275,6 +307,8 @@
     "links": {
       "NBI report": "/1200386"
     },
+    "latitude": 37.69335,
+    "longitude": -97.35189,
     "carries": "CENTRAL",
     "crosses": "LITTLE ARKANSAS RIVER",
     "location": "CENTRAL AT SENECA",
@@ -293,6 +327,8 @@
       "NBI report": "/1200978",
       "Bridgehunter": "//bridgehunter.com/18517"
     },
+    "latitude": 37.64529,
+    "longitude": -97.33552,
     "carries": "SOUTH BROADWAY(SB)",
     "crosses": "ARKANSAS RIVER",
     "location": "SOUTH BROADWAY @ CARP ST.",
@@ -311,6 +347,8 @@
       "NBI report": "/1201059",
       "Bridgehunter": "//bridgehunter.com/48849"
     },
+    "latitude": 37.708,
+    "longitude": -97.34593,
     "carries": "13TH STREET NORTH",
     "crosses": "LITTLE ARKANSAS RIVER",
     "location": "13TH ST N AT LEWELLEN",
@@ -328,6 +366,8 @@
     "links": {
       "NBI report": "/1200421"
     },
+    "latitude": 37.64749,
+    "longitude": -97.28549,
     "carries": "GEO WASHINGTON BLD",
     "crosses": "GYPSUM CREEK",
     "location": "GEO. WASH. AT ROSS PKWY",
@@ -345,6 +385,8 @@
     "links": {
       "NBI report": "/1201058"
     },
+    "latitude": 37.70121,
+    "longitude": -97.34873,
     "carries": "BITTING",
     "crosses": "LITTLE ARKANSAS RIVER",
     "location": "BITTING AT TWELFTH ST N",
@@ -362,6 +404,8 @@
     "links": {
       "NBI report": "/1201148"
     },
+    "latitude": 37.72861,
+    "longitude": -97.33588,
     "carries": "BROADWAY",
     "crosses": "CHISHOLM CREEK",
     "location": "BROADWAY AT 25TH ST NORTH",
@@ -379,6 +423,8 @@
     "links": {
       "NBI report": "/1201031"
     },
+    "latitude": 37.75941,
+    "longitude": -97.33665,
     "carries": "BROADWAY",
     "crosses": "MIDDLE FORK CHISHOLM CR.",
     "location": "BROADWAY AT 37TH. ST. N.",
@@ -396,6 +442,8 @@
     "links": {
       "NBI report": "/1200359"
     },
+    "latitude": 37.68612,
+    "longitude": -97.46262,
     "carries": "MAIZE ROAD",
     "crosses": "COWSKIN CREEK",
     "location": "MAIZE RD. AT 2ND. ST.",
@@ -413,6 +461,8 @@
     "links": {
       "NBI report": "/1201659"
     },
+    "latitude": 37.6388,
+    "longitude": -97.30711,
     "carries": "K-15 HWY SB",
     "crosses": "WICHITA DRAINAGE CANAL",
     "location": "1.16 MI. N. I-35(KTA)",
@@ -430,6 +480,8 @@
     "links": {
       "NBI report": "/1200390"
     },
+    "latitude": 37.69333,
+    "longitude": -97.27833,
     "carries": "CENTRAL",
     "crosses": "WEST BRANCH DRY CREEK",
     "location": "CENTRAL AT BLECKLEY",
@@ -447,6 +499,8 @@
     "links": {
       "NBI report": "/1200397"
     },
+    "latitude": 37.63906,
+    "longitude": -97.30713,
     "carries": "S.E. BLVD. N.B.",
     "crosses": "WICHITA DRAINAGE CANAL",
     "location": "S.E. BLVD. AT CANAL",
@@ -464,6 +518,8 @@
     "links": {
       "NBI report": "/1201141"
     },
+    "latitude": 37.69666,
+    "longitude": -97.29172,
     "carries": "ROOSEVELT STREET",
     "crosses": "THIRD STREET DRAIN",
     "location": "ROOSEVELT AT SLEEPYHOLLOW",
@@ -481,6 +537,8 @@
     "links": {
       "NBI report": "/1201166"
     },
+    "latitude": 37.73656,
+    "longitude": -97.29898,
     "carries": "HILLSIDE AVENUE",
     "crosses": "EAST FORK CHISHOLM CR.",
     "location": "HILLSIDE AT 27TH. ST. N.",
@@ -498,6 +556,8 @@
     "links": {
       "NBI report": "/1201119"
     },
+    "latitude": 37.73754,
+    "longitude": -97.35681,
     "carries": "29TH STREET NORTH",
     "crosses": "LITTLE ARKANSAS RIVER",
     "location": "29TH ST AT CROMWELL",
@@ -515,6 +575,8 @@
     "links": {
       "NBI report": "/1201097"
     },
+    "latitude": 37.67937,
+    "longitude": -97.45766,
     "carries": "MAPLE STREET",
     "crosses": "WESTLINK TRIB COWSKIN CR",
     "location": "MAPLE AT SEVILLE",
@@ -532,6 +594,8 @@
     "links": {
       "NBI report": "/1200391"
     },
+    "latitude": 37.6938,
+    "longitude": -97.26751,
     "carries": "CENTRAL",
     "crosses": "EAST BRANCH DRY CREEK",
     "location": "CENTRAL AT BROOKSIDE",
@@ -549,6 +613,8 @@
     "links": {
       "NBI report": "/1200411"
     },
+    "latitude": 37.7338,
+    "longitude": -97.28064,
     "carries": "OLIVER",
     "crosses": "E. FORK CHISHOLM CR TR #",
     "location": "OLIVER AT NORWOOD(SO.)",
@@ -566,6 +632,8 @@
     "links": {
       "NBI report": "/1200412"
     },
+    "latitude": 37.74112,
+    "longitude": -97.28065,
     "carries": "OLIVER",
     "crosses": "EAST FORK CHISHOLM CR.",
     "location": "OLIVER AT NORWOOD(NO.)",
@@ -583,6 +651,8 @@
     "links": {
       "NBI report": "/1201044"
     },
+    "latitude": 37.6865,
+    "longitude": -97.26949,
     "carries": "DOUGLAS AVENUE",
     "crosses": "EAST BRANCH DRY CREEK",
     "location": "DOUGLAS AT BROOKSIDE",
@@ -600,6 +670,8 @@
     "links": {
       "NBI report": "/1201043"
     },
+    "latitude": 37.68192,
+    "longitude": -97.27127,
     "carries": "EDGEMOOR",
     "crosses": "EAST BRANCH DRY CREEK",
     "location": "EDGEMOOR AT LEXINGTON",
@@ -617,6 +689,8 @@
     "links": {
       "NBI report": "/1201045"
     },
+    "latitude": 37.69016,
+    "longitude": -97.26846,
     "carries": "SECOND STREET",
     "crosses": "EAST BRANCH DRY CREEK",
     "location": "2ND ST AT BROOKSIDE",
@@ -634,6 +708,8 @@
     "links": {
       "NBI report": "/1201093"
     },
+    "latitude": 37.67193,
+    "longitude": -97.2641,
     "carries": "LINCOLN STREET",
     "crosses": "FABRIQUE BR. GYPSUM CK.",
     "location": "LINCOLN AT FABRIQUE",
@@ -651,6 +727,8 @@
     "links": {
       "NBI report": "/1200409"
     },
+    "latitude": 37.64652,
+    "longitude": -97.28044,
     "carries": "OLIVER",
     "crosses": "GYPSUM CREEK",
     "location": "OLIVER N KANSAS TURNPIKE",
@@ -668,6 +746,8 @@
     "links": {
       "NBI report": "/1201033"
     },
+    "latitude": 37.70826,
+    "longitude": -97.36366,
     "carries": "13TH STREET NORTH",
     "crosses": "ARKANSAS RIVER",
     "location": "13TH ST AT MCLEAN BLVD",
@@ -685,6 +765,8 @@
     "links": {
       "NBI report": "/1201142"
     },
+    "latitude": 37.69527,
+    "longitude": -97.29352,
     "carries": "YALE AVENUE",
     "crosses": "THIRD STREET DRAIN",
     "location": "YALE AT SLEEPY HOLLOW",
@@ -702,6 +784,8 @@
     "links": {
       "NBI report": "/1203222"
     },
+    "latitude": 37.67877,
+    "longitude": -97.33008,
     "carries": "US54/US400 HWY WB",
     "crosses": "AT & SF RAILROAD",
     "location": "0.25 MI E TOPEKA ST",
@@ -719,6 +803,8 @@
     "links": {
       "NBI report": "/1201041"
     },
+    "latitude": 37.67745,
+    "longitude": -97.27592,
     "carries": "orme/pinecrest",
     "crosses": "DRY CREEK",
     "location": "PINE CREST AT ORME",
@@ -736,6 +822,8 @@
     "links": {
       "NBI report": "/1201140"
     },
+    "latitude": 37.69716,
+    "longitude": -97.29143,
     "carries": "MURDOCK",
     "crosses": "THIRD STREET DRAIN",
     "location": "MURDOCK AT SLEEPY HOLLOW",
@@ -753,6 +841,8 @@
     "links": {
       "NBI report": "/1201046"
     },
+    "latitude": 37.7011,
+    "longitude": -97.26829,
     "carries": "NINTH STREET",
     "crosses": "EAST BRANCH DRY CREEK",
     "location": "9TH ST AT KEVIN",
@@ -770,6 +860,8 @@
     "links": {
       "NBI report": "/1200990"
     },
+    "latitude": 37.64235,
+    "longitude": -97.30532,
     "carries": "WASSALL",
     "crosses": "GYPSUM CREEK TRIB.",
     "location": "WASSALL AT RANGE DRIVE",
@@ -787,6 +879,8 @@
     "links": {
       "NBI report": "/1201040"
     },
+    "latitude": 37.67513,
+    "longitude": -97.27756,
     "carries": "GILBERT STREET",
     "crosses": "DRY CREEK",
     "location": "GILBERT AT ELPYCO",
@@ -804,6 +898,8 @@
     "links": {
       "NBI report": "/1202481"
     },
+    "latitude": 37.66816,
+    "longitude": -97.24648,
     "carries": "I35 HWY (KTA)NB SB",
     "crosses": "GYPSUM CREEK",
     "location": "4.10 MI N K15",
@@ -821,6 +917,8 @@
     "links": {
       "NBI report": "/1200980"
     },
+    "latitude": 37.66461,
+    "longitude": -97.34645,
     "carries": "HARRY STREET",
     "crosses": "ARKANSAS RIVER",
     "location": "HARRY STREET AT MCLEAN",
@@ -838,6 +936,8 @@
     "links": {
       "NBI report": "/1201026"
     },
+    "latitude": 37.67196,
+    "longitude": -97.24989,
     "carries": "LINCOLN STREET",
     "crosses": "ARMOUR BRANCH GYPSUM CR",
     "location": "LINCOLN AT ARMOUR",
@@ -855,6 +955,8 @@
     "links": {
       "NBI report": "/1202463"
     },
+    "latitude": 37.6404,
+    "longitude": -97.28299,
     "carries": "FEES ST.",
     "crosses": "I-35 HWY (KTA)",
     "location": "1.26 MI NE K-15",
@@ -872,6 +974,8 @@
     "links": {
       "NBI report": "/1202474"
     },
+    "latitude": 37.67498,
+    "longitude": -97.23031,
     "carries": "I35(KTA) TO U54",
     "crosses": "I-35 HWY (KTA)",
     "location": "US-54 / I-35 INTERCHANGE",
@@ -889,6 +993,8 @@
     "links": {
       "NBI report": "/1202461"
     },
+    "latitude": 37.6253,
+    "longitude": -97.29526,
     "carries": "KTA RAMP TO K15",
     "crosses": "I-35 HWY (KTA)",
     "location": "0.20 MI NE K-15",
@@ -906,6 +1012,8 @@
     "links": {
       "NBI report": "/1202475"
     },
+    "latitude": 37.67511,
+    "longitude": -97.22616,
     "carries": "URB6675, WEBB ROAD",
     "crosses": "I-35 HWY (KTA)",
     "location": "2.04 MI SW US-54",
@@ -923,6 +1031,8 @@
     "links": {
       "NBI report": "/1203226"
     },
+    "latitude": 37.67927,
+    "longitude": -97.19079,
     "carries": "US54/US400 HWY EB",
     "crosses": "I-35 HWY (KTA)",
     "location": "JCT US-54 / I-35(KTA)",
@@ -940,6 +1050,8 @@
     "links": {
       "NBI report": "/1202451"
     },
+    "latitude": 37.5936,
+    "longitude": -97.32406,
     "carries": "I-35 HWY NB (KTA)",
     "crosses": "URB6000, 55TH ST SOUTH",
     "location": "8.09 MI N SUMNER CO LINE",
@@ -957,6 +1069,8 @@
     "links": {
       "NBI report": "/1202455"
     },
+    "latitude": 37.60799,
+    "longitude": -97.3108,
     "carries": "I-35 HWY NB (KTA)",
     "crosses": "47TH STREET",
     "location": "0.70 MI NE I-135",
@@ -974,6 +1088,8 @@
     "links": {
       "NBI report": "/1202450"
     },
+    "latitude": 37.5936,
+    "longitude": -97.32421,
     "carries": "I-35 HWY SB (KTA)",
     "crosses": "55TH ST SOUTH",
     "location": "8.08 MI N SUMNER CO LINE",
@@ -991,6 +1107,8 @@
     "links": {
       "NBI report": "/1202454"
     },
+    "latitude": 37.60799,
+    "longitude": -97.31096,
     "carries": "I-35 HWY SB (KTA)",
     "crosses": "47TH STREET",
     "location": "0.71 MI NE I-135",
@@ -1008,6 +1126,8 @@
     "links": {
       "NBI report": "/1202453"
     },
+    "latitude": 37.60388,
+    "longitude": -97.31583,
     "carries": "I-35 HWY NB (KTA)",
     "crosses": "FAS 717 (HYDRAULIC AVE.)",
     "location": "0.43 MI NE I-135",
@@ -1025,6 +1145,8 @@
     "links": {
       "NBI report": "/1202452"
     },
+    "latitude": 37.604,
+    "longitude": -97.31583,
     "carries": "I-35 HWY SB (KTA)",
     "crosses": "HYDRAULIC AVE.",
     "location": "0.43 MI NE I-135",
@@ -1042,6 +1164,8 @@
     "links": {
       "NBI report": "/1202457"
     },
+    "latitude": 37.62266,
+    "longitude": -97.30477,
     "carries": "I-35 HWY NB (KTA)",
     "crosses": "MACARTHUR RD",
     "location": "1.60 MI NE I-135",
@@ -1059,6 +1183,8 @@
     "links": {
       "NBI report": "/1202456"
     },
+    "latitude": 37.62265,
+    "longitude": -97.30499,
     "carries": "I-35 HWY SB (KTA)",
     "crosses": "MACARTHUR RD",
     "location": "1.61 MI NE I-135",
@@ -1076,6 +1202,8 @@
     "links": {
       "NBI report": "/1202477"
     },
+    "latitude": 37.67519,
+    "longitude": -97.20784,
     "carries": "I-35 HWY NB (KTA)",
     "crosses": "GREENWICH RD",
     "location": "1.05 MI SW US-54",
@@ -1093,6 +1221,8 @@
     "links": {
       "NBI report": "/1202476"
     },
+    "latitude": 37.67531,
+    "longitude": -97.20782,
     "carries": "I-35 HWY SB (KTA)",
     "crosses": "URB6725, GREENWICH RD",
     "location": "1.04 MI SW US-54",
@@ -1110,6 +1240,8 @@
     "links": {
       "NBI report": "/1202465"
     },
+    "latitude": 37.64316,
+    "longitude": -97.28047,
     "carries": "I-35 HWY NB (KTA)",
     "crosses": "URB6525,6810,OLIVER ST",
     "location": "1.53 MI NE K-15",
@@ -1127,6 +1259,8 @@
     "links": {
       "NBI report": "/1202471"
     },
+    "latitude": 37.66468,
+    "longitude": -97.25021,
     "carries": "I-35 HWY NB (KTA)",
     "crosses": "HARRY STREET",
     "location": "3.77 MI NE K-15",
@@ -1144,6 +1278,8 @@
     "links": {
       "NBI report": "/1202473"
     },
+    "latitude": 37.66935,
+    "longitude": -97.24444,
     "carries": "I-35 HWY NB (KTA)",
     "crosses": "ROCK ROAD",
     "location": "4.22 MI NE K-15",
@@ -1161,6 +1297,8 @@
     "links": {
       "NBI report": "/1202464"
     },
+    "latitude": 37.64337,
+    "longitude": -97.28046,
     "carries": "I-35 HWY SB (KTA)",
     "crosses": "OLIVER ST",
     "location": "1.54 MI NE K-15",
@@ -1178,6 +1316,8 @@
     "links": {
       "NBI report": "/1202470"
     },
+    "latitude": 37.66468,
+    "longitude": -97.25036,
     "carries": "I-35 HWY SB (KTA)",
     "crosses": "HARRY STREET",
     "location": "3.76 MI NE K-15",
@@ -1195,6 +1335,8 @@
     "links": {
       "NBI report": "/1202472"
     },
+    "latitude": 37.66953,
+    "longitude": -97.24443,
     "carries": "I-35 HWY SB (KTA)",
     "crosses": "ROCK ROAD",
     "location": "4.23 MI NE K-15",
@@ -1212,6 +1354,8 @@
     "links": {
       "NBI report": "/1205206"
     },
+    "latitude": 37.60158,
+    "longitude": -97.3228,
     "carries": "I-135 HWY",
     "crosses": "I-35 HWY (KTA)",
     "location": "JCT I-135 / I-35 (KTA)",
@@ -1229,6 +1373,8 @@
     "links": {
       "NBI report": "/1202462"
     },
+    "latitude": 37.63505,
+    "longitude": -97.28621,
     "carries": "THIRTY FIRST ST",
     "crosses": "I-35 HWY (KTA)",
     "location": "0.66 MI NE K-15",
@@ -1246,6 +1392,8 @@
     "links": {
       "NBI report": "/1203225"
     },
+    "latitude": 37.67943,
+    "longitude": -97.19066,
     "carries": "US54/US400 HWY WB",
     "crosses": "I-35 HWY (KTA)",
     "location": "JCT US-54 / I-35(KTA)",
@@ -1263,6 +1411,8 @@
     "links": {
       "NBI report": "/1201028"
     },
+    "latitude": 37.75763,
+    "longitude": -97.34493,
     "carries": "ARKANSAS AVENUE",
     "crosses": "MAIN FORK CHISHOLM CR.",
     "location": "ARKANSAS AT 40TH. ST. N.",
@@ -1280,6 +1430,8 @@
     "links": {
       "NBI report": "/1201029"
     },
+    "latitude": 37.7524,
+    "longitude": -97.34492,
     "carries": "ARKANSAS AVENUE",
     "crosses": "MID FORK CHISHOLM CR.",
     "location": "ARKANSAS AT 37TH. ST. N.",
@@ -1297,6 +1449,8 @@
     "links": {
       "NBI report": "/1201164"
     },
+    "latitude": 37.75786,
+    "longitude": -97.31747,
     "carries": "HYDRAULIC AVENUE",
     "crosses": "MID FORK CHISHOLM CR.",
     "location": "HYDRAULIC AT 39TH. ST. N.",
@@ -1314,6 +1468,8 @@
     "links": {
       "NBI report": "/1201047"
     },
+    "latitude": 37.70582,
+    "longitude": -97.26902,
     "carries": "POLO STREET",
     "crosses": "EAST BRANCH DRY CREEK",
     "location": "POLO AT KEVIN",
@@ -1331,6 +1487,8 @@
     "links": {
       "NBI report": "/1201092"
     },
+    "latitude": 37.66465,
+    "longitude": -97.26554,
     "carries": "HARRY STREET",
     "crosses": "FABRIQUE BR. GYPSUM CK.",
     "location": "HARRY AT FABRIQUE",
@@ -1348,6 +1506,8 @@
     "links": {
       "NBI report": "/1201037"
     },
+    "latitude": 37.66467,
+    "longitude": -97.28,
     "carries": "HARRY STREET",
     "crosses": "DRY CREEK",
     "location": "HARRY AT OLIVER",
@@ -1365,6 +1525,8 @@
     "links": {
       "NBI report": "/1201153"
     },
+    "latitude": 37.75362,
+    "longitude": -97.35222,
     "carries": "37TH STREET NORTH",
     "crosses": "WICHITA VALLEY CTR FLDWY",
     "location": "37TH ST N AT SENECA",
@@ -1382,6 +1544,8 @@
     "links": {
       "NBI report": "/1200393"
     },
+    "latitude": 37.69333,
+    "longitude": -97.24333,
     "carries": "CENTRAL",
     "crosses": "MIDDLE BRANCH GYPSUM CR.",
     "location": "CENTRAL AT TARA",
@@ -1399,6 +1563,8 @@
     "links": {
       "NBI report": "/1200394"
     },
+    "latitude": 37.69385,
+    "longitude": -97.23298,
     "carries": "CENTRAL",
     "crosses": "EAST BRANCH GYPSUM CREEK",
     "location": "CENTRAL AT LINDEN DRIVE",
@@ -1416,6 +1582,8 @@
     "links": {
       "NBI report": "/1200395"
     },
+    "latitude": 37.69363,
+    "longitude": -97.23186,
     "carries": "CENTRAL",
     "crosses": "EAST BRANCH GYPSUM CREEK",
     "location": "CENTRAL 500FT E LINDEN DR",
@@ -1433,6 +1601,8 @@
     "links": {
       "NBI report": "/1200994"
     },
+    "latitude": 37.65732,
+    "longitude": -97.29164,
     "carries": "MT. VERNON",
     "crosses": "DRY CREEK",
     "location": "MT. VERNON AT BLUFF",
@@ -1450,6 +1620,8 @@
     "links": {
       "NBI report": "/1201030"
     },
+    "latitude": 37.75278,
+    "longitude": -97.33556,
     "carries": "OLD LAWERENCE RD",
     "crosses": "CHISOLM CREEK TRIB",
     "location": "OLD LAWERENCE AND 37TH N",
@@ -1467,6 +1639,8 @@
     "links": {
       "NBI report": "/1200374"
     },
+    "latitude": 37.68002,
+    "longitude": -97.40915,
     "carries": "MAPLE STREET",
     "crosses": "WICHITA VALLEY CTR FLDWY",
     "location": "MAPLE AT CARLTON TWINS",
@@ -1484,6 +1658,8 @@
     "links": {
       "NBI report": "/1200420"
     },
+    "latitude": 37.78136,
+    "longitude": -97.35833,
     "carries": "53RD STREET NORTH",
     "crosses": "LITTLE ARKANSAS RIVER",
     "location": "53RD ST. N @ PORTER",
@@ -1501,6 +1677,8 @@
     "links": {
       "NBI report": "/1200370"
     },
+    "latitude": 37.63689,
+    "longitude": -97.37099,
     "carries": "31ST STREET SOUTH",
     "crosses": "MERIDIAN DITCH",
     "location": "31ST ST S AT MERIDIAN",
@@ -1518,6 +1696,8 @@
     "links": {
       "NBI report": "/1200369"
     },
+    "latitude": 37.63328,
+    "longitude": -97.37095,
     "carries": "33RD STREET SOUTH",
     "crosses": "MERIDIAN DITCH",
     "location": "33RD ST S AT MERIDIAN",
@@ -1535,6 +1715,8 @@
     "links": {
       "NBI report": "/1200371"
     },
+    "latitude": 37.64238,
+    "longitude": -97.37117,
     "carries": "WILDWOOD",
     "crosses": "MERIDIAN DITCH",
     "location": "WILDWOOD AT MERIDIAN",
@@ -1552,6 +1734,8 @@
     "links": {
       "NBI report": "/1205937"
     },
+    "latitude": 37.73143,
+    "longitude": -97.38026,
     "carries": "25TH ST.",
     "crosses": "I235 HWY, NB/SB",
     "location": "JCT 25TH ST/I235",
@@ -1569,6 +1753,8 @@
     "links": {
       "NBI report": "/1205936"
     },
+    "latitude": 37.72571,
+    "longitude": -97.38608,
     "carries": "I235 HWY, NB",
     "crosses": "ARKANSAS RIVER",
     "location": "1.08 MI NE BICKELL ST, NB",
@@ -1586,6 +1772,8 @@
     "links": {
       "NBI report": "/1205939"
     },
+    "latitude": 37.74052,
+    "longitude": -97.37463,
     "carries": "I235 HWY, NB",
     "crosses": "WICHITA FL CONTR CANAL",
     "location": "0.70 MI NE 25TH ST, NB",
@@ -1603,6 +1791,8 @@
     "links": {
       "NBI report": "/1205943"
     },
+    "latitude": 37.75657,
+    "longitude": -97.34704,
     "carries": "I235 HWY, NB",
     "crosses": "LITTLE ARKANSAS RIVER",
     "location": "1.38 MI E K96, NB",
@@ -1620,6 +1810,8 @@
     "links": {
       "NBI report": "/1205942"
     },
+    "latitude": 37.75652,
+    "longitude": -97.34584,
     "carries": "I235 HWY, SB",
     "crosses": "LITTLE ARKANSAS RIVER",
     "location": "1.39 MI E K96, SB",
@@ -1637,6 +1829,8 @@
     "links": {
       "NBI report": "/1205944"
     },
+    "latitude": 37.75649,
+    "longitude": -97.34493,
     "carries": "I235 HWY, SB",
     "crosses": "ARKANSAS AVE",
     "location": "JCT ARKANSAS AVE/I235, NL",
@@ -1654,6 +1848,8 @@
     "links": {
       "NBI report": "/1205928"
     },
+    "latitude": 37.67322,
+    "longitude": -97.40439,
     "carries": "I235 SB TO US54 WB",
     "crosses": "WICHITA FL CONTR CANAL",
     "location": "0.01 MI N US54, WL",
@@ -1671,6 +1867,8 @@
     "links": {
       "NBI report": "/1205941"
     },
+    "latitude": 37.75675,
+    "longitude": -97.35409,
     "carries": "SENECA ST.",
     "crosses": "I235 HWY, NB/SB",
     "location": "0.98 MI E K96",
@@ -1688,6 +1886,8 @@
     "links": {
       "NBI report": "/1205940"
     },
+    "latitude": 37.75634,
+    "longitude": -97.347,
     "carries": "I235,K96,FRONT RD",
     "crosses": "LITTLE ARKANSAS RIV DRN",
     "location": "0.58 MI E K96",
@@ -1705,6 +1905,8 @@
     "links": {
       "NBI report": "/1200389"
     },
+    "latitude": 37.69242,
+    "longitude": -97.29902,
     "carries": "CENTRAL",
     "crosses": "THIRD STREET DRAIN",
     "location": "CENTRAL AT RUTAN",
@@ -1722,6 +1924,8 @@
     "links": {
       "NBI report": "/1200991"
     },
+    "latitude": 37.64586,
+    "longitude": -97.29877,
     "carries": "HILLSIDE AVENUE",
     "crosses": "GYPSUM CREEK TRIB.",
     "location": "HILLSIDE AT GLEN OAKS",
@@ -1739,6 +1943,8 @@
     "links": {
       "NBI report": "/1205905"
     },
+    "latitude": 37.6169,
+    "longitude": -97.33408,
     "carries": "I235 HWY, NB",
     "crosses": "BROADWAY ST",
     "location": "JCT BROADWAY/I235, NB",
@@ -1756,6 +1962,8 @@
     "links": {
       "NBI report": "/1205907"
     },
+    "latitude": 37.61866,
+    "longitude": -97.33732,
     "carries": "I235 HWY, NB",
     "crosses": "OKT  RAILROAD",
     "location": "0.23 MI W BROADWAY ST, NB",
@@ -1773,6 +1981,8 @@
     "links": {
       "NBI report": "/1205909"
     },
+    "latitude": 37.62262,
+    "longitude": -97.33908,
     "carries": "I235 HWY, NB",
     "crosses": "MACARTHUR RD",
     "location": "JCT MACARTHUR RD/I235, NB",
@@ -1790,6 +2000,8 @@
     "links": {
       "NBI report": "/1205911"
     },
+    "latitude": 37.62694,
+    "longitude": -97.34332,
     "carries": "I235 HWY, NB",
     "crosses": "GOLD ST.",
     "location": "0.38 MI NW MACARTH RD, NB",
@@ -1807,6 +2019,8 @@
     "links": {
       "NBI report": "/1205913"
     },
+    "latitude": 37.62801,
+    "longitude": -97.3525,
     "carries": "I235 HWY, NB",
     "crosses": "SENECA ST",
     "location": "JCT SENECA ST/I235, NB",
@@ -1824,6 +2038,8 @@
     "links": {
       "NBI report": "/1205915"
     },
+    "latitude": 37.62858,
+    "longitude": -97.3707,
     "carries": "I235 HWY, NB",
     "crosses": "MERIDIAN AVE",
     "location": "JCT MERIDIAN ST/I235, NB",
@@ -1841,6 +2057,8 @@
     "links": {
       "NBI report": "/1205925"
     },
+    "latitude": 37.67212,
+    "longitude": -97.40151,
     "carries": "I235 HWY, NB",
     "crosses": "ATSF RAILWAY/ABANDONED",
     "location": "0.07 MI S US54, NB",
@@ -1858,6 +2076,8 @@
     "links": {
       "NBI report": "/1205927"
     },
+    "latitude": 37.67329,
+    "longitude": -97.40158,
     "carries": "I235 HWY, NB",
     "crosses": "US54 HWY",
     "location": "JCT US54/I235, NB",
@@ -1875,6 +2095,8 @@
     "links": {
       "NBI report": "/1205930"
     },
+    "latitude": 37.6801,
+    "longitude": -97.40489,
     "carries": "I235 HWY, NB",
     "crosses": "MAPLE ST",
     "location": "0.51 MI N US54, NB",
@@ -1892,6 +2114,8 @@
     "links": {
       "NBI report": "/1205932"
     },
+    "latitude": 37.69454,
+    "longitude": -97.40931,
     "carries": "I235 HWY, NB",
     "crosses": "CENTRAL AVE",
     "location": "JCT CENTRAL AVE/I235, NB",
@@ -1909,6 +2133,8 @@
     "links": {
       "NBI report": "/1205934"
     },
+    "latitude": 37.71374,
+    "longitude": -97.39954,
     "carries": "I235 HWY, NB",
     "crosses": "ZOO BLVD,  RR",
     "location": "JCT BICKELL ST/I235, NB",
@@ -1926,6 +2152,8 @@
     "links": {
       "NBI report": "/1205904"
     },
+    "latitude": 37.61742,
+    "longitude": -97.33408,
     "carries": "I235 HWY, SB",
     "crosses": "BROADWAY ST",
     "location": "JCT BROADWAY/I235, SB",
@@ -1943,6 +2171,8 @@
     "links": {
       "NBI report": "/1205906"
     },
+    "latitude": 37.61912,
+    "longitude": -97.3372,
     "carries": "I235 HWY, SB",
     "crosses": "OKT  RAILROAD",
     "location": "0.24 MI W BROADWAY ST, SB",
@@ -1960,6 +2190,8 @@
     "links": {
       "NBI report": "/1205908"
     },
+    "latitude": 37.62261,
+    "longitude": -97.33939,
     "carries": "I235 HWY, SB",
     "crosses": "MACARTHUR RD",
     "location": "JCT MACARTHUR RD/I235, SB",
@@ -1977,6 +2209,8 @@
     "links": {
       "NBI report": "/1205910"
     },
+    "latitude": 37.62667,
+    "longitude": -97.34332,
     "carries": "I235 HWY, SB",
     "crosses": "GOLD ST",
     "location": "0.39 MI NW MACARTH RD, SB",
@@ -1994,6 +2228,8 @@
     "links": {
       "NBI report": "/1205912"
     },
+    "latitude": 37.62779,
+    "longitude": -97.35249,
     "carries": "I235 HWY, SB",
     "crosses": "SENECA ST",
     "location": "JCT SENECA ST / I235",
@@ -2011,6 +2247,8 @@
     "links": {
       "NBI report": "/1205914"
     },
+    "latitude": 37.62836,
+    "longitude": -97.3707,
     "carries": "I235 HWY, SB",
     "crosses": "MERIDIAN AVE",
     "location": "JCT MERIDIAN ST/I235",
@@ -2028,6 +2266,8 @@
     "links": {
       "NBI report": "/1205924"
     },
+    "latitude": 37.68,
+    "longitude": -97.40472,
     "carries": "I235 HWY, SB",
     "crosses": "ATSF RAILWAY (ABANDONED)",
     "location": "0.06 MI S US54, SB",
@@ -2045,6 +2285,8 @@
     "links": {
       "NBI report": "/1205926"
     },
+    "latitude": 37.6733,
+    "longitude": -97.40126,
     "carries": "I235 HWY, SB",
     "crosses": "US54 HWY",
     "location": "JCT US54/I235",
@@ -2062,6 +2304,8 @@
     "links": {
       "NBI report": "/1205929"
     },
+    "latitude": 37.68011,
+    "longitude": -97.40455,
     "carries": "I235 HWY, SB",
     "crosses": "MAPLE ST",
     "location": "0.52 MI N US54, SB",
@@ -2079,6 +2323,8 @@
     "links": {
       "NBI report": "/1205931"
     },
+    "latitude": 37.69454,
+    "longitude": -97.40902,
     "carries": "I235 HWY, SB",
     "crosses": "CENTRAL AVE",
     "location": "JCT CENTRAL AVE/I235, SB",
@@ -2096,6 +2342,8 @@
     "links": {
       "NBI report": "/1205933"
     },
+    "latitude": 37.71391,
+    "longitude": -97.39973,
     "carries": "I235 HWY, SB",
     "crosses": "URB6802, ZOO BLVD,  RR",
     "location": "JCT BICKELL ST/I235, SB",
@@ -2113,6 +2361,8 @@
     "links": {
       "NBI report": "/1205922"
     },
+    "latitude": 37.67215,
+    "longitude": -97.40121,
     "carries": "I235 NB TO US54 EB",
     "crosses": "ATSF RAILWAY/ABANDONED",
     "location": "I235 NB TO US54 EB RAMP",
@@ -2130,6 +2380,8 @@
     "links": {
       "NBI report": "/1205923"
     },
+    "latitude": 37.67199,
+    "longitude": -97.40324,
     "carries": "US54 EB TO I235 SB",
     "crosses": "BNSF RR, CANAL (Abandon)",
     "location": "US54 EB TO I235 SB  RAMP",
@@ -2147,6 +2399,8 @@
     "links": {
       "NBI report": "/1205917"
     },
+    "latitude": 37.63157,
+    "longitude": -97.38913,
     "carries": "I235 HWY, NB",
     "crosses": "WEST ST",
     "location": "JCT WEST ST/I235, NB",
@@ -2164,6 +2418,8 @@
     "links": {
       "NBI report": "/1205919"
     },
+    "latitude": 37.63388,
+    "longitude": -97.39282,
     "carries": "I235 HWY, NB",
     "crosses": "MOPAC RAILROAD",
     "location": "0.25 MI NW WEST ST, NB",
@@ -2181,6 +2437,8 @@
     "links": {
       "NBI report": "/1205921"
     },
+    "latitude": 37.64669,
+    "longitude": -97.39893,
     "carries": "I235 HWY, NB",
     "crosses": "K-42 HWY",
     "location": "JCT K42/I235 NB",
@@ -2198,6 +2456,8 @@
     "links": {
       "NBI report": "/1205916"
     },
+    "latitude": 37.63129,
+    "longitude": -97.38912,
     "carries": "I235 HWY, SB",
     "crosses": "WEST ST",
     "location": "JCT WEST ST/I235",
@@ -2215,6 +2475,8 @@
     "links": {
       "NBI report": "/1205918"
     },
+    "latitude": 37.63349,
+    "longitude": -97.39281,
     "carries": "I235 HWY, SB",
     "crosses": "MOPAC RAILROAD",
     "location": "0.26 MI NW WEST ST, SB",
@@ -2232,6 +2494,8 @@
     "links": {
       "NBI report": "/1205920"
     },
+    "latitude": 37.64682,
+    "longitude": -97.39867,
     "carries": "I235 HWY, SB",
     "crosses": "K-42 HWY",
     "location": "JCT K42/I235 SB",
@@ -2249,6 +2513,8 @@
     "links": {
       "NBI report": "/1200364"
     },
+    "latitude": 37.65154,
+    "longitude": -97.34588,
     "carries": "PAWNEE",
     "crosses": "ARKANSAS RIVER",
     "location": "PAWNEE AT MC LEAN BLVD.",
@@ -2266,6 +2532,8 @@
     "links": {
       "NBI report": "/1201049"
     },
+    "latitude": 37.70839,
+    "longitude": -97.26971,
     "carries": "13TH STREET NORTH",
     "crosses": "EAST BRANCH DRY CREEK",
     "location": "13TH ST AT KEVIN",
@@ -2283,6 +2551,8 @@
     "links": {
       "NBI report": "/1200392"
     },
+    "latitude": 37.69383,
+    "longitude": -97.24884,
     "carries": "CENTRAL",
     "crosses": "WEST BRANCH GYPSUM CREEK",
     "location": "CENTRAL AT BROADMOOR",
@@ -2300,6 +2570,8 @@
     "links": {
       "NBI report": "/1201061"
     },
+    "latitude": 37.58902,
+    "longitude": -97.31582,
     "carries": "HYDRAULIC AVENUE",
     "crosses": "BIG SLOUGH SOUTH",
     "location": "HYDRAULIC AT 57TH SOUTH",
@@ -2317,6 +2589,8 @@
     "links": {
       "NBI report": "/1201023"
     },
+    "latitude": 37.63688,
+    "longitude": -97.38024,
     "carries": "31ST STREET SOUTH",
     "crosses": "BIG SLOUGH SOUTH TRIB.",
     "location": "31ST ST. S AT SHERIDAN",
@@ -2334,6 +2608,8 @@
     "links": {
       "NBI report": "/1201024"
     },
+    "latitude": 37.63326,
+    "longitude": -97.38006,
     "carries": "33RD STREET SOUTH",
     "crosses": "BIG SLOUGH SOUTH TRIB.",
     "location": "33RD ST. S AT SHERIDAN",
@@ -2351,6 +2627,8 @@
     "links": {
       "NBI report": "/1201063"
     },
+    "latitude": 37.61361,
+    "longitude": -97.33407,
     "carries": "BROADWAY",
     "crosses": "BIG SLOUGH CREEK",
     "location": "BROADWAY AT 44 TH ST. S",
@@ -2368,6 +2646,8 @@
     "links": {
       "NBI report": "/1201145"
     },
+    "latitude": 37.69701,
+    "longitude": -97.30818,
     "carries": "GROVE STREET",
     "crosses": "FRISCO DITCH",
     "location": "GROVE AT ORCHARD",
@@ -2385,6 +2665,8 @@
     "links": {
       "NBI report": "/1201056"
     },
+    "latitude": 37.70084,
+    "longitude": -97.34884,
     "carries": "NIMS",
     "crosses": "LITTLE ARKANSAS RIVER",
     "location": "NIMS AT BITTING",
@@ -2402,6 +2684,8 @@
     "links": {
       "NBI report": "/1200375"
     },
+    "latitude": 37.71725,
+    "longitude": -97.36306,
     "carries": "AMIDON",
     "crosses": "ARKANSAS RIVER",
     "location": "AMIDON AT 18TH. ST. NORTH",
@@ -2419,6 +2703,8 @@
     "links": {
       "NBI report": "/1201038"
     },
+    "latitude": 37.66667,
+    "longitude": -97.27833,
     "carries": "BOSTON",
     "crosses": "DRY CREEK",
     "location": "BOSTON AT PARKLANE",
@@ -2436,6 +2722,8 @@
     "links": {
       "NBI report": "/1205946"
     },
+    "latitude": 37.7573,
+    "longitude": -97.33574,
     "carries": "I235 HWY, NB",
     "crosses": "BROADWAY, ATSF RR",
     "location": "JCT BROADWAY/I235, NB",
@@ -2453,6 +2741,8 @@
     "links": {
       "NBI report": "/1205945"
     },
+    "latitude": 37.75754,
+    "longitude": -97.33574,
     "carries": "I235 HWY, SB",
     "crosses": "BROADWAY,ATSF RR",
     "location": "JCT BROADWAY/I235, SB",
@@ -2470,6 +2760,8 @@
     "links": {
       "NBI report": "/1201147"
     },
+    "latitude": 37.72124,
+    "longitude": -97.32768,
     "carries": "MOSLEY",
     "crosses": "CHISHOLM CREEK",
     "location": "MOSLEY AT 20TH ST NORTH",
@@ -2487,6 +2779,8 @@
     "links": {
       "NBI report": "/1200403"
     },
+    "latitude": 37.72267,
+    "longitude": -97.32456,
     "carries": "21ST STREET NORTH",
     "crosses": "CENTER DRAIN TRIBUTARY",
     "location": "21ST ST N @DERBY REFINERY",
@@ -2504,6 +2798,8 @@
     "links": {
       "NBI report": "/1200422"
     },
+    "latitude": 37.65365,
+    "longitude": -97.29295,
     "carries": "GEO WASHINGTON BLD",
     "crosses": "DRY CREEK",
     "location": "GEO. WASH. AT BELAIRE",
@@ -2521,6 +2817,8 @@
     "links": {
       "NBI report": "/1200408"
     },
+    "latitude": 37.6415,
+    "longitude": -97.28017,
     "carries": "OLIVER",
     "crosses": "GYPSUM CREEK TRIB.",
     "location": "OLIVER AT BUNKER HILL",
@@ -2538,6 +2836,8 @@
     "links": {
       "NBI report": "/1200402"
     },
+    "latitude": 37.72262,
+    "longitude": -97.33192,
     "carries": "21ST STREET NORTH",
     "crosses": "CHISHOLM CREEK",
     "location": "21ST ST. N AT ST FRANCIS",
@@ -2555,6 +2855,8 @@
     "links": {
       "NBI report": "/1201165"
     },
+    "latitude": 37.75444,
+    "longitude": -97.3,
     "carries": "HILLSIDE",
     "crosses": "TRIB E FORK CHISH CR",
     "location": "NORTH OF 37TH",
@@ -2572,6 +2874,8 @@
     "links": {
       "NBI report": "/1200398"
     },
+    "latitude": 37.69216,
+    "longitude": -97.29875,
     "carries": "HILLSIDE AVENUE",
     "crosses": "THIRD STREET DRAIN",
     "location": "HILLSIDE AT THIRD STREET",
@@ -2589,6 +2893,8 @@
     "links": {
       "NBI report": "/1200400"
     },
+    "latitude": 37.70056,
+    "longitude": -97.29911,
     "carries": "HILLSIDE AVENUE",
     "crosses": "FRISCO DITCH",
     "location": "HILLSIDE AT NINTH ST NO",
@@ -2606,6 +2912,8 @@
     "links": {
       "NBI report": "/1205164"
     },
+    "latitude": 37.61645,
+    "longitude": -97.33115,
     "carries": "I235 SB TO I135 NB",
     "crosses": "I135 HWY  SB",
     "location": "0.69 MI N 47TH ST, SB",
@@ -2623,6 +2931,8 @@
     "links": {
       "NBI report": "/1205903"
     },
+    "latitude": 37.61758,
+    "longitude": -97.32908,
     "carries": "I235 SB TO I135 NB",
     "crosses": "I235 HWY, NB",
     "location": "0.34 MI W I135, SB",
@@ -2640,6 +2950,8 @@
     "links": {
       "NBI report": "/1201146"
     },
+    "latitude": 37.70007,
+    "longitude": -97.30114,
     "carries": "MOSSMAN STREET",
     "crosses": "FRISCO DITCH",
     "location": "MOSSMAN AT CHAUTAUQUA",
@@ -2657,6 +2969,8 @@
     "links": {
       "NBI report": "/1201144"
     },
+    "latitude": 37.69633,
+    "longitude": -97.31274,
     "carries": "PIATT STREET",
     "crosses": "FRISCO DITCH",
     "location": "PIATT AT MURDOCK",
@@ -2674,6 +2988,8 @@
     "links": {
       "NBI report": "/1201036"
     },
+    "latitude": 37.70833,
+    "longitude": -97.475,
     "carries": "PONDEROSA",
     "crosses": "TRIB TO COWSKIN CR",
     "location": "PONDEROSA AND COVINGTON",
@@ -2691,6 +3007,8 @@
     "links": {
       "NBI report": "/1205163"
     },
+    "latitude": 37.61497,
+    "longitude": -97.32835,
     "carries": "I-135 HWY  SB",
     "crosses": "I-235 NB",
     "location": "0.51 MI N 47TH ST, SB",
@@ -2708,6 +3026,8 @@
     "links": {
       "NBI report": "/1200977"
     },
+    "latitude": 37.62691,
+    "longitude": -97.31629,
     "carries": "S. HYDRAULIC AVE.",
     "crosses": "ARKANSAS RIVER",
     "location": "S HYDRAULIC AT GALENA",
@@ -2725,6 +3045,8 @@
     "links": {
       "NBI report": "/1201052"
     },
+    "latitude": 37.70841,
+    "longitude": -97.25678,
     "carries": "13TH STREET NORTH",
     "crosses": "WEST BRANCH GYPSUM CREEK",
     "location": "13TH ST AT LAWRENCE",
@@ -2742,6 +3064,8 @@
     "links": {
       "NBI report": "/1201096"
     },
+    "latitude": 37.69636,
+    "longitude": -97.45144,
     "carries": "DELANO",
     "crosses": "WESTLINK TRIB COWSKIN CR",
     "location": "DELANO AT WESTLINK",
@@ -2759,6 +3083,8 @@
     "links": {
       "NBI report": "/1205166"
     },
+    "latitude": 37.62262,
+    "longitude": -97.32844,
     "carries": "I135 HWY  NB",
     "crosses": "URB6150, MACARTHER RD",
     "location": "JCT I135/MACARTHUR RD",
@@ -2776,6 +3102,8 @@
     "links": {
       "NBI report": "/1205170"
     },
+    "latitude": 37.62926,
+    "longitude": -97.31686,
     "carries": "I135 HWY  NB",
     "crosses": "HYDRAULIC AVE",
     "location": "JCT I135 EL/HYDRAULIC AVE",
@@ -2793,6 +3121,8 @@
     "links": {
       "NBI report": "/1205173"
     },
+    "latitude": 37.63948,
+    "longitude": -97.30748,
     "carries": "I135 HWY  NB",
     "crosses": "K15 ,ATSF RR,DRG CANAL",
     "location": "0.02 MI N K15, NB",
@@ -2810,6 +3140,8 @@
     "links": {
       "NBI report": "/1205165"
     },
+    "latitude": 37.62262,
+    "longitude": -97.32901,
     "carries": "I135 HWY  SB",
     "crosses": "MACARTHUR RD",
     "location": "JCT I135/MACARTHUR RD",
@@ -2827,6 +3159,8 @@
     "links": {
       "NBI report": "/1205171"
     },
+    "latitude": 37.63984,
+    "longitude": -97.30806,
     "carries": "I135 HWY  SB",
     "crosses": "K15 HWY, ATSF RAILROAD",
     "location": "0.02 MI S K15, SB",
@@ -2844,6 +3178,8 @@
     "links": {
       "NBI report": "/1205172"
     },
+    "latitude": 37.63986,
+    "longitude": -97.30676,
     "carries": "NB K15 TO I135 RMP",
     "crosses": "GYPSUM CREEK",
     "location": "1.18 MI. N. I-35(KTA)",
@@ -2861,6 +3197,8 @@
     "links": {
       "NBI report": "/1205205"
     },
+    "latitude": 37.63925,
+    "longitude": -97.30752,
     "carries": "OLD K15 HWY EL",
     "crosses": "SB I135 TO SB K15 RAMP",
     "location": ".13 MI NI135&OLD K15",
@@ -2878,6 +3216,8 @@
     "links": {
       "NBI report": "/1200365"
     },
+    "latitude": 37.64992,
+    "longitude": -97.31032,
     "carries": "PAWNEE",
     "crosses": "WICHITA DRAINAGE CANAL",
     "location": "PAWNEE AT I-135",
@@ -2895,6 +3235,8 @@
     "links": {
       "NBI report": "/1200367"
     },
+    "latitude": 37.6501,
+    "longitude": -97.27384,
     "carries": "PAWNEE",
     "crosses": "GYPSUM CREEK",
     "location": "PAWNEE AT KS TURNPIKE",
@@ -2912,6 +3254,8 @@
     "links": {
       "NBI report": "/1201151"
     },
+    "latitude": 37.73747,
+    "longitude": -97.34218,
     "carries": "29TH STREET NORTH",
     "crosses": "CHISHOLM CREEK",
     "location": "29TH ST NO AT WACO",
@@ -2929,6 +3273,8 @@
     "links": {
       "NBI report": "/1205168"
     },
+    "latitude": 37.62524,
+    "longitude": -97.32662,
     "carries": "I135 HWY  NB",
     "crosses": "ARKANSAS RIVER",
     "location": "0.22 MI N MACART RD, NB",
@@ -2946,6 +3292,8 @@
     "links": {
       "NBI report": "/1205167"
     },
+    "latitude": 37.6251,
+    "longitude": -97.32738,
     "carries": "I135 HWY  SB",
     "crosses": "ARKANSAS RIVER",
     "location": "0.23 MI N MACART RD, WL",
@@ -2963,6 +3311,8 @@
     "links": {
       "NBI report": "/1205169"
     },
+    "latitude": 37.62906,
+    "longitude": -97.31675,
     "carries": "I135 HWY  SB",
     "crosses": "HYDRAULIC AVE",
     "location": "JCT I135 WL/HYDRAULIC AVE",
@@ -2980,6 +3330,8 @@
     "links": {
       "NBI report": "/1203223"
     },
+    "latitude": 37.67923,
+    "longitude": -97.25032,
     "carries": "US54 HWY",
     "crosses": "GYPSUM CREEK DRAINAGE",
     "location": "0.65 MI E WOODLAWN AVE",
@@ -2997,6 +3349,8 @@
     "links": {
       "NBI report": "/1200401"
     },
+    "latitude": 37.72263,
+    "longitude": -97.35825,
     "carries": "21ST STREET NORTH",
     "crosses": "LITTLE ARKANSAS RIVER",
     "location": "21ST. ST. N AT COOLIDGE",
@@ -3014,6 +3368,8 @@
     "links": {
       "NBI report": "/1205218"
     },
+    "latitude": 37.64993,
+    "longitude": -97.30998,
     "carries": "EB PWNE-NBI135RP",
     "crosses": "HWY R/W ONLY",
     "location": "0.70 MI N OF K15",
@@ -3031,6 +3387,8 @@
     "links": {
       "NBI report": "/1200996"
     },
+    "latitude": 37.71488,
+    "longitude": -97.25595,
     "carries": "FARMVIEW",
     "crosses": "WEST BRANCH GYPSUM CREEK",
     "location": "FARMVIEW AT LAWRENCE LANE",
@@ -3048,6 +3406,8 @@
     "links": {
       "NBI report": "/1200418"
     },
+    "latitude": 37.69019,
+    "longitude": -97.24451,
     "carries": "ROCK ROAD",
     "crosses": "WEST BRANCH GYPSUM CREEK",
     "location": "ROCK RD .25 M S CENTRAL",
@@ -3065,6 +3425,8 @@
     "links": {
       "NBI report": "/1201118"
     },
+    "latitude": 37.73001,
+    "longitude": -97.36028,
     "carries": "25TH STREET NORTH",
     "crosses": "LITTLE ARKANSAS RIVER",
     "location": "25TH ST AT COOLIDGE",
@@ -3082,6 +3444,8 @@
     "links": {
       "NBI report": "/1201100"
     },
+    "latitude": 37.70868,
+    "longitude": -97.45401,
     "carries": "13TH STREET NORTH",
     "crosses": "WESTLINK TRIB COWSKIN CR",
     "location": "13TH ST AT WESTLINK",
@@ -3099,6 +3463,8 @@
     "links": {
       "NBI report": "/1205176"
     },
+    "latitude": 37.64917,
+    "longitude": -97.30944,
     "carries": "I135 HWY  NB",
     "crosses": "PAWNEE AVE",
     "location": "JCT I135 EL/PAWNEE AVE",
@@ -3116,6 +3482,8 @@
     "links": {
       "NBI report": "/1205175"
     },
+    "latitude": 37.64992,
+    "longitude": -97.31055,
     "carries": "I135 HWY  SB",
     "crosses": "PAWNEE AVE",
     "location": "JCT I135 WL/PAWEE AVE",
@@ -3133,6 +3501,8 @@
     "links": {
       "NBI report": "/1201095"
     },
+    "latitude": 37.68785,
+    "longitude": -97.44518,
     "carries": "ROLLING HILLS",
     "crosses": "WESTLINK TRIB COWSKIN CR",
     "location": "ROLLING HILLS AT WOOD LN",
@@ -3150,6 +3520,8 @@
     "links": {
       "NBI report": "/1201051"
     },
+    "latitude": 37.69896,
+    "longitude": -97.25092,
     "carries": "RUTLAND",
     "crosses": "WEST BRANCH GYPSUM CREEK",
     "location": "RUTLAND AT BROADMOOR",
@@ -3167,6 +3539,8 @@
     "links": {
       "NBI report": "/1200380"
     },
+    "latitude": 37.69401,
+    "longitude": -97.44943,
     "carries": "CENTRAL",
     "crosses": "WESTLINK TRIB COWSKIN CR",
     "location": "CENTRAL AT WESTLINK",
@@ -3184,6 +3558,8 @@
     "links": {
       "NBI report": "/1201027"
     },
+    "latitude": 37.68656,
+    "longitude": -97.24029,
     "carries": "DOUGLAS AVENUE",
     "crosses": "GYPSUM CREEK",
     "location": "DOUGLAS AT bonnie brae",
@@ -3201,6 +3577,8 @@
     "links": {
       "NBI report": "/1201099"
     },
+    "latitude": 37.70444,
+    "longitude": -97.45403,
     "carries": "HARVEST LANE",
     "crosses": "WESTLINK TRIB COWSKIN CR",
     "location": "HARVEST LN AT WESTLINK",
@@ -3218,6 +3596,8 @@
     "links": {
       "NBI report": "/1200366"
     },
+    "latitude": 37.65004,
+    "longitude": -97.29431,
     "carries": "PAWNEE",
     "crosses": "DRY CREEK",
     "location": "PAWNEE AT ROOSEVELT",
@@ -3235,6 +3615,8 @@
     "links": {
       "NBI report": "/1201025"
     },
+    "latitude": 37.75167,
+    "longitude": -97.30167,
     "carries": "37TH ST. NORTH",
     "crosses": "TRIB E FORK CHISH CR",
     "location": "WEST OF HILLSIDE",
@@ -3252,6 +3634,8 @@
     "links": {
       "NBI report": "/1200974"
     },
+    "latitude": 37.68656,
+    "longitude": -97.23435,
     "carries": "DOUGLAS AVENUE",
     "crosses": "GYPSUM CREEK EAST BRANCH",
     "location": "DOUGLAS AT LINDEN DRIVE",
@@ -3269,6 +3653,8 @@
     "links": {
       "NBI report": "/1205180"
     },
+    "latitude": 37.73574,
+    "longitude": -97.31711,
     "carries": "I135 HWY  NB",
     "crosses": "UP RR,CHISHOLM CR DRG",
     "location": "1.01 MI N 21ST NB",
@@ -3286,6 +3672,8 @@
     "links": {
       "NBI report": "/1205182"
     },
+    "latitude": 37.7383,
+    "longitude": -97.31815,
     "carries": "I135 HWY  NB",
     "crosses": "OKT  RR, HYDRAULIC AVE",
     "location": "1.19 MI N 21ST ST, NB",
@@ -3303,6 +3691,8 @@
     "links": {
       "NBI report": "/1205184"
     },
+    "latitude": 37.75219,
+    "longitude": -97.3196,
     "carries": "I135 HWY  NB",
     "crosses": "37TH ST",
     "location": "JCT 37TH ST/I135, NB",
@@ -3320,6 +3710,8 @@
     "links": {
       "NBI report": "/1205177"
     },
+    "latitude": 37.72977,
+    "longitude": -97.31704,
     "carries": "I135 HWY  NB/SB",
     "crosses": "EAST FORK CHISHOLM CREEK",
     "location": "0.59 MI N 21ST ST",
@@ -3337,6 +3729,8 @@
     "links": {
       "NBI report": "/1205178"
     },
+    "latitude": 37.73366,
+    "longitude": -97.31694,
     "carries": "I135 HWY  NB/SB",
     "crosses": "FRONTAGE ROAD",
     "location": "0.85 MI N 21ST ST",
@@ -3354,6 +3748,8 @@
     "links": {
       "NBI report": "/1205179"
     },
+    "latitude": 37.73557,
+    "longitude": -97.31735,
     "carries": "I135 HWY  SB",
     "crosses": "UP RR, CHISHOLM CR DRG",
     "location": "1.00 MI N 21ST SB",
@@ -3371,6 +3767,8 @@
     "links": {
       "NBI report": "/1205181"
     },
+    "latitude": 37.738,
+    "longitude": -97.31831,
     "carries": "I135 HWY  SB",
     "crosses": "OKT  RR, HYDRAULIC AVE",
     "location": "1.18 MI N 21ST ST, SB",
@@ -3388,6 +3786,8 @@
     "links": {
       "NBI report": "/1205183"
     },
+    "latitude": 37.75219,
+    "longitude": -97.31984,
     "carries": "I135 HWY  SB",
     "crosses": "37TH ST",
     "location": "JCT 37TH ST/I135, WL",
@@ -3405,6 +3805,8 @@
     "links": {
       "NBI report": "/1201135"
     },
+    "latitude": 37.70833,
+    "longitude": -97.31833,
     "carries": "13TH ST(WB)",
     "crosses": "WICHITA DRAINAGE CANAL",
     "location": "13TH ST N AT I-135",
@@ -3422,6 +3824,8 @@
     "links": {
       "NBI report": "/1203221"
     },
+    "latitude": 37.67314,
+    "longitude": -97.40356,
     "carries": "54/400 HWY NL-SL",
     "crosses": "WICHITA FL CONTR CANAL",
     "location": "0.20 MI E HOOVER RD",
@@ -3439,6 +3843,8 @@
     "links": {
       "NBI report": "/1200388"
     },
+    "latitude": 37.69356,
+    "longitude": -97.31535,
     "carries": "CENTRAL (EB)",
     "crosses": "WICHITA DRAINAGE CANAL",
     "location": "CENTRAL AT I-135",
@@ -3456,6 +3862,8 @@
     "links": {
       "NBI report": "/1200387"
     },
+    "latitude": 37.69333,
+    "longitude": -97.31167,
     "carries": "CENTRAL(WB)",
     "crosses": "WICHITA DRAINAGE CANAL",
     "location": "CENTRAL AT I-135",
@@ -3473,6 +3881,8 @@
     "links": {
       "NBI report": "/1201131"
     },
+    "latitude": 37.70052,
+    "longitude": -97.31762,
     "carries": "NINTH STREET",
     "crosses": "WICHITA DRAINAGE CANAL",
     "location": "9TH ST AT I-135",
@@ -3490,6 +3900,8 @@
     "links": {
       "NBI report": "/1200410"
     },
+    "latitude": 37.66379,
+    "longitude": -97.28042,
     "carries": "OLIVER",
     "crosses": "DRY CREEK",
     "location": "OLIVER AT HARRY",
@@ -3507,6 +3919,8 @@
     "links": {
       "NBI report": "/1200404"
     },
+    "latitude": 37.7215,
+    "longitude": -97.31843,
     "carries": "21ST ST. NORTH",
     "crosses": "EAST FRK CHISHOLM CREEK",
     "location": "21ST ST N AT NEW YORK",
@@ -3524,6 +3938,8 @@
     "links": {
       "NBI report": "/1200407"
     },
+    "latitude": 37.72333,
+    "longitude": -97.21,
     "carries": "21ST ST. NORTH",
     "crosses": "TRIB TO FOUR MILE CREEK",
     "location": "21ST W. OF GREENWICH",
@@ -3541,6 +3957,8 @@
     "links": {
       "NBI report": "/1201084"
     },
+    "latitude": 37.75167,
+    "longitude": -97.43167,
     "carries": "37TH STREET NORTH",
     "crosses": "BIG SLOUGH CREEK",
     "location": "37TH N WEST OF RIDGE ROAD",
@@ -3558,6 +3976,8 @@
     "links": {
       "NBI report": "/1201022"
     },
+    "latitude": 37.73103,
+    "longitude": -97.32684,
     "carries": "26TH STREET NORTH",
     "crosses": "CENTER DRAIN TRIBUTARY",
     "location": "26TH ST N. AT MEAD",
@@ -3575,6 +3995,8 @@
     "links": {
       "NBI report": "/1201086"
     },
+    "latitude": 37.68812,
+    "longitude": -97.31401,
     "carries": "FIRST STREET NORTH",
     "crosses": "WICHITA DRAINAGE CANAL",
     "location": "1ST ST AT I-135",
@@ -3592,6 +4014,8 @@
     "links": {
       "NBI report": "/1201087"
     },
+    "latitude": 37.68991,
+    "longitude": -97.31427,
     "carries": "SECOND STREET",
     "crosses": "WICHITA DRAINAGE CANAL",
     "location": "2ND ST AT I-135",
@@ -3609,6 +4033,8 @@
     "links": {
       "NBI report": "/1201002"
     },
+    "latitude": 37.65965,
+    "longitude": -97.26214,
     "carries": "WOODLAWN",
     "crosses": "GYPSUM CREEK",
     "location": "WOODLAWN 500' N Mt Vern",
@@ -3626,6 +4052,8 @@
     "links": {
       "NBI report": "/1201034"
     },
+    "latitude": 37.72322,
+    "longitude": -97.38279,
     "carries": "21st Street North",
     "crosses": "Arkansas River",
     "location": "21st at Westridge",
@@ -3643,6 +4071,8 @@
     "links": {
       "NBI report": "/1201167"
     },
+    "latitude": 37.73747,
+    "longitude": -97.32726,
     "carries": "29TH STREET NORTH",
     "crosses": "CENTER DRAIN TRIBUTARY",
     "location": "29TH ST. N  AT OHIO",
@@ -3660,6 +4090,8 @@
     "links": {
       "NBI report": "/1201012"
     },
+    "latitude": 37.67177,
+    "longitude": -97.31476,
     "carries": "LINCOLN STREET",
     "crosses": "MINNEAPOLIS STREET",
     "location": "LINCOLN AT MINNEAPOLIS",
@@ -3677,6 +4109,8 @@
     "links": {
       "NBI report": "/1201000"
     },
+    "latitude": 37.64635,
+    "longitude": -97.29409,
     "carries": "ROSEBERRY",
     "crosses": "DRY CREEK",
     "location": "ROSEBERRY AT ROOSEVELT",
@@ -3694,6 +4128,8 @@
     "links": {
       "NBI report": "/1200983"
     },
+    "latitude": 37.68796,
+    "longitude": -97.34375,
     "carries": "FIRST STREET NORTH",
     "crosses": "ARKANSAS RIVER",
     "location": "1ST ST AT MCLEAN BLVD.",
@@ -3711,6 +4147,8 @@
     "links": {
       "NBI report": "/1201115"
     },
+    "latitude": 37.66372,
+    "longitude": -97.23673,
     "carries": "LONGFORD",
     "crosses": "ROCK RD SO TRIB GYPSUM C",
     "location": "LONGFORD AT LOCkMOOR",
@@ -3728,6 +4166,8 @@
     "links": {
       "NBI report": "/1201109"
     },
+    "latitude": 37.67667,
+    "longitude": -97.24833,
     "carries": "ORME",
     "crosses": "TRIB TO GYPSUM CREEK",
     "location": "ORME AND ARMOUR",
@@ -3745,6 +4185,8 @@
     "links": {
       "NBI report": "/1200999"
     },
+    "latitude": 37.64527,
+    "longitude": -97.2918,
     "carries": "ROOSEVELT STREET",
     "crosses": "GYPSUM CREEK",
     "location": "ROOSEVELT AT ROSEBERRY",
@@ -3762,6 +4204,8 @@
     "links": {
       "NBI report": "/1201113"
     },
+    "latitude": 37.68333,
+    "longitude": -97.25,
     "carries": "TARGET ENTRANCE",
     "crosses": "ARMOUR BRANCH GYPSUM CR",
     "location": "TARGET ENTRANCE AT ARMOUR",
@@ -3779,6 +4223,8 @@
     "links": {
       "NBI report": "/1201094"
     },
+    "latitude": 37.68667,
+    "longitude": -97.45167,
     "carries": "WESTFIELD",
     "crosses": "WESTLINK TRIB COWSKIN CR",
     "location": "WESTFIELD AT ROLLING HILL",
@@ -3796,6 +4242,8 @@
     "links": {
       "NBI report": "/1201111"
     },
+    "latitude": 37.68563,
+    "longitude": -97.25259,
     "carries": "WHITTIER",
     "crosses": "ARMOUR BRANCH GYPSUM CR",
     "location": "WHITTIER AT ARMOUR",
@@ -3813,6 +4261,8 @@
     "links": {
       "NBI report": "/1201136"
     },
+    "latitude": 37.70805,
+    "longitude": -97.32,
     "carries": "13TH STREET (EB)",
     "crosses": "WICHITA DRAINAGE CANAL",
     "location": "13TH ST AT I-135",
@@ -3830,6 +4280,8 @@
     "links": {
       "NBI report": "/1201112"
     },
+    "latitude": 37.6827,
+    "longitude": -97.25885,
     "carries": "SWNB drive",
     "crosses": "ARMOUR BRANCH GYPSUM CR",
     "location": "WILLOWBROOK AT ARMOUR",
@@ -3847,6 +4299,8 @@
     "links": {
       "NBI report": "/1203234"
     },
+    "latitude": 37.67869,
+    "longitude": -97.31722,
     "carries": "135N to 54W",
     "crosses": "HYDRAULIC AVE",
     "location": "US54 & HYDRAULIC AVE",
@@ -3864,6 +4318,8 @@
     "links": {
       "NBI report": "/1205231"
     },
+    "latitude": 37.70625,
+    "longitude": -97.3189,
     "carries": "13ST RMP-NBND I135",
     "crosses": "HWY R/W ONLY",
     "location": "2.18 MI N OF US54",
@@ -3881,6 +4337,8 @@
     "links": {
       "NBI report": "/1205230"
     },
+    "latitude": 37.70625,
+    "longitude": -97.31986,
     "carries": "13TH RMP-SB I135",
     "crosses": "HWY R/W ONLY",
     "location": "1.99 MI N OF US54",
@@ -3898,6 +4356,8 @@
     "links": {
       "NBI report": "/1201168"
     },
+    "latitude": 37.71899,
+    "longitude": -97.32345,
     "carries": "19TH STREET NORTH",
     "crosses": "CENTER DRAIN TRIBUTARY",
     "location": "19TH ST. N. AT OHIO",
@@ -3915,6 +4375,8 @@
     "links": {
       "NBI report": "/1205220"
     },
+    "latitude": 37.68618,
+    "longitude": -97.31353,
     "carries": "1ST RMP TO SB I135",
     "crosses": "HWY R/W ONLY",
     "location": "0.58 MI N US54",
@@ -3932,6 +4394,8 @@
     "links": {
       "NBI report": "/1205221"
     },
+    "latitude": 37.68619,
+    "longitude": -97.31262,
     "carries": "2NDST RMP-NBNDI135",
     "crosses": "HWY R/W ONLY",
     "location": "0.88 MI N OF US54",
@@ -3949,6 +4413,8 @@
     "links": {
       "NBI report": "/1205226"
     },
+    "latitude": 37.6999,
+    "longitude": -97.31927,
     "carries": "8TH RMP TO SBI135",
     "crosses": "HWY R/W ONLY",
     "location": "1.42 MI.N OF US54",
@@ -3966,6 +4432,8 @@
     "links": {
       "NBI report": "/1205227"
     },
+    "latitude": 37.70079,
+    "longitude": -97.31592,
     "carries": "9THST RMP-NB I135",
     "crosses": "HWY R/W ONLY",
     "location": "1.65 MI N OF US54",
@@ -3983,6 +4451,8 @@
     "links": {
       "NBI report": "/1201114"
     },
+    "latitude": 37.65374,
+    "longitude": -97.24445,
     "carries": "BLUESTEM",
     "crosses": "ROCK RD SO TRIB GYPSUM C",
     "location": "BLUESTEM AT WHITE OAK",
@@ -4000,6 +4470,8 @@
     "links": {
       "NBI report": "/1205223"
     },
+    "latitude": 37.69175,
+    "longitude": -97.3144,
     "carries": "CNTRL RP TONBI135",
     "crosses": "HWY R/W ONLY",
     "location": "1.15 MI N OF US54",
@@ -4017,6 +4489,8 @@
     "links": {
       "NBI report": "/1205209"
     },
+    "latitude": 37.66447,
+    "longitude": -97.31221,
     "carries": "HARRY ST.",
     "crosses": "I35  E&W LANES & CANAL",
     "location": "JCT. I35 & HARRY ST",
@@ -4034,6 +4508,8 @@
     "links": {
       "NBI report": "/1205232"
     },
+    "latitude": 37.70625,
+    "longitude": -97.31986,
     "carries": "I135 SBND RMP-13TH",
     "crosses": "HWY R/W ONLY",
     "location": "1.66 MI N OF US54",
@@ -4051,6 +4527,8 @@
     "links": {
       "NBI report": "/1205219"
     },
+    "latitude": 37.68812,
+    "longitude": -97.3134,
     "carries": "I135NB RMP-1ST ST",
     "crosses": "HWY R/W ONLY",
     "location": "0.57 MI N US54",
@@ -4068,6 +4546,8 @@
     "links": {
       "NBI report": "/1205217"
     },
+    "latitude": 37.67181,
+    "longitude": -97.31225,
     "carries": "LINCOLN ST.",
     "crosses": "I135 HWY EL&WL -CANAL",
     "location": "JCT. LINCOLN AVE & I35",
@@ -4085,6 +4565,8 @@
     "links": {
       "NBI report": "/1205214"
     },
+    "latitude": 37.65719,
+    "longitude": -97.31204,
     "carries": "MT VERNON ST",
     "crosses": "I135 HWY NB/SB -CANAL",
     "location": "JCT MT VERNON & I35",
@@ -4102,6 +4584,8 @@
     "links": {
       "NBI report": "/1205229"
     },
+    "latitude": 37.70625,
+    "longitude": -97.3189,
     "carries": "NB I135 RMP-13TH",
     "crosses": "HWY R/W ONLY",
     "location": "1.98 MI N OF US54",
@@ -4119,6 +4603,8 @@
     "links": {
       "NBI report": "/1205225"
     },
+    "latitude": 37.69762,
+    "longitude": -97.31629,
     "carries": "NB I135 RMP-9TH ST",
     "crosses": "HWY R/W ONLY",
     "location": "1.38 MI N OF US54",
@@ -4136,6 +4622,8 @@
     "links": {
       "NBI report": "/1203233"
     },
+    "latitude": 37.67911,
+    "longitude": -97.30832,
     "carries": "RAMP N TO E",
     "crosses": "GROVE ST",
     "location": "KELLOGG & GROVE",
@@ -4153,6 +4641,8 @@
     "links": {
       "NBI report": "/1205212"
     },
+    "latitude": 37.67898,
+    "longitude": -97.31233,
     "carries": "RP I135 SB/U54 EB",
     "crosses": "I135 NB/SB LANES & CANAL",
     "location": "JCT I35W-US54",
@@ -4170,6 +4660,8 @@
     "links": {
       "NBI report": "/1205211"
     },
+    "latitude": 37.675,
+    "longitude": -97.3125,
     "carries": "RP U54 EB/I135 NB",
     "crosses": "I135 E&W LANES",
     "location": "JCT I35-US54",
@@ -4187,6 +4679,8 @@
     "links": {
       "NBI report": "/1205213"
     },
+    "latitude": 37.67752,
+    "longitude": -97.3129,
     "carries": "RP U54 WB/I135 SB",
     "crosses": "I135 HWY EL&WL -CANAL",
     "location": "0.02MI. N US 54",
@@ -4204,6 +4698,8 @@
     "links": {
       "NBI report": "/1205228"
     },
+    "latitude": 37.6999,
+    "longitude": -97.31927,
     "carries": "SB I135 RMP-9TH ST",
     "crosses": "HWY R/W ONLY",
     "location": "2.20 MI N OF US54",
@@ -4221,6 +4717,8 @@
     "links": {
       "NBI report": "/1205224"
     },
+    "latitude": 37.69176,
+    "longitude": -97.31532,
     "carries": "SB RMP-135-CNTRL",
     "crosses": "HWY R/W ONLY",
     "location": "1.17 MI N OF US54",
@@ -4238,6 +4736,8 @@
     "links": {
       "NBI report": "/1205222"
     },
+    "latitude": 37.68619,
+    "longitude": -97.31341,
     "carries": "SBN I135 TO 2ND ST",
     "crosses": "HWY R/W ONLY",
     "location": "0.89 N OF US54 HWY",
@@ -4255,6 +4755,8 @@
     "links": {
       "NBI report": "/1203227"
     },
+    "latitude": 37.67912,
+    "longitude": -97.3129,
     "carries": "US54/US400 HWY EB",
     "crosses": "I135 HWY EL-WL & Canal",
     "location": "JCT US54/I135",
@@ -4272,6 +4774,8 @@
     "links": {
       "NBI report": "/1203231"
     },
+    "latitude": 37.67932,
+    "longitude": -97.30811,
     "carries": "US54/US400 HWY EB",
     "crosses": "GROVE ST",
     "location": "US54 & GROVE ST",
@@ -4289,6 +4793,8 @@
     "links": {
       "NBI report": "/1203228"
     },
+    "latitude": 37.67896,
+    "longitude": -97.31291,
     "carries": "US54/US400 HWY WB",
     "crosses": "I135 E&W LANES & Canal",
     "location": "JCT US54/I135",
@@ -4306,6 +4812,8 @@
     "links": {
       "NBI report": "/1203229"
     },
+    "latitude": 37.67876,
+    "longitude": -97.31722,
     "carries": "US54/US400 HWY WB",
     "crosses": "HYDRAULIC AVE",
     "location": "KELLOGG & HYDRAULIC AVE",
@@ -4323,6 +4831,8 @@
     "links": {
       "NBI report": "/1203232"
     },
+    "latitude": 37.67887,
+    "longitude": -97.30832,
     "carries": "WB U54/WN-WS RAMP",
     "crosses": "GROVE ST",
     "location": "KELLOGG & GROVE",
@@ -4340,6 +4850,8 @@
     "links": {
       "NBI report": "/1200381"
     },
+    "latitude": 37.69451,
+    "longitude": -97.41938,
     "carries": "CENTRAL",
     "crosses": "BIG SLOUGH NORTH",
     "location": "CENTRAL @ WINTERSET(WB)",
@@ -4357,6 +4869,8 @@
     "links": {
       "NBI report": "/1200382"
     },
+    "latitude": 37.69451,
+    "longitude": -97.41895,
     "carries": "CENTRAL",
     "crosses": "BIG SLOUGH NORTH",
     "location": "CENTRAL @ WINTERSET(EB)",
@@ -4374,6 +4888,8 @@
     "links": {
       "NBI report": "/1200383"
     },
+    "latitude": 37.69456,
+    "longitude": -97.41634,
     "carries": "CENTRAL",
     "crosses": "WICHITA VALLEY CTR FLDWY",
     "location": "CENTRAL AT WVCF(WB)",
@@ -4391,6 +4907,8 @@
     "links": {
       "NBI report": "/1200384"
     },
+    "latitude": 37.69456,
+    "longitude": -97.41707,
     "carries": "CENTRAL",
     "crosses": "WICHITA VALLEY CTR FLDWY",
     "location": "CENTRAL AT WVCF(EB)",
@@ -4408,6 +4926,8 @@
     "links": {
       "NBI report": "/1201004"
     },
+    "latitude": 37.66489,
+    "longitude": -97.3101,
     "carries": "HARRY STREET",
     "crosses": "MADISON",
     "location": "HARRY AT MADISON",
@@ -4425,6 +4945,8 @@
     "links": {
       "NBI report": "/1201007"
     },
+    "latitude": 37.66446,
+    "longitude": -97.31468,
     "carries": "HARRY STREET",
     "crosses": "KANSAS AVE.",
     "location": "HARRY AT KANSAS",
@@ -4442,6 +4964,8 @@
     "links": {
       "NBI report": "/1201005"
     },
+    "latitude": 37.665,
+    "longitude": -97.40833,
     "carries": "Hoover",
     "crosses": "TRIB TO WVCFLOODWAY",
     "location": "HARRY AND HOOVER",
@@ -4459,6 +4983,8 @@
     "links": {
       "NBI report": "/1205208"
     },
+    "latitude": 37.69619,
+    "longitude": -97.31593,
     "carries": "I135 HWY NB",
     "crosses": "RR , 12CITY ST& STRM",
     "location": "I135 EL VDT, ENG TO 18TH",
@@ -4476,6 +5002,8 @@
     "links": {
       "NBI report": "/1205207"
     },
+    "latitude": 37.69617,
+    "longitude": -97.31655,
     "carries": "I135 HWY SB",
     "crosses": "RR , 12CITY ST& STRM",
     "location": "I135 WL VDT, ENG TO 18TH",
@@ -4493,6 +5021,8 @@
     "links": {
       "NBI report": "/1205210"
     },
+    "latitude": 37.67916,
+    "longitude": -97.31233,
     "carries": "RP I135 NB/U54 WB",
     "crosses": "US 54-I135, 3 RAMPS",
     "location": "JCT I35W-US54 KELLOGG AVE",
@@ -4510,6 +5040,8 @@
     "links": {
       "NBI report": "/1203237"
     },
+    "latitude": 37.67925,
+    "longitude": -97.29878,
     "carries": "US54/US400 HWY EB",
     "crosses": "HILLSIDE AVE",
     "location": "0.80 MI E JCT I135/US54",
@@ -4527,6 +5059,8 @@
     "links": {
       "NBI report": "/1203236"
     },
+    "latitude": 37.67925,
+    "longitude": -97.29892,
     "carries": "US54/US400 HWY WB",
     "crosses": "HILLSIDE AVE",
     "location": "0.80 MI E JCT I135/US54",
@@ -4544,6 +5078,8 @@
     "links": {
       "NBI report": "/1201139"
     },
+    "latitude": 37.69202,
+    "longitude": -97.29551,
     "carries": "VASSAR STREET",
     "crosses": "THIRD STREET DRAIN",
     "location": "VASSAR AT EDGEMONT",
@@ -4561,6 +5097,8 @@
     "links": {
       "NBI report": "/1200992"
     },
+    "latitude": 37.64885,
+    "longitude": -97.29603,
     "carries": "CESSNA DRIVE",
     "crosses": "DRY CREEK",
     "location": "CESSNA DR AT ROOSEVELT",
@@ -4578,6 +5116,8 @@
     "links": {
       "NBI report": "/1204845"
     },
+    "latitude": 37.75381,
+    "longitude": -97.37905,
     "carries": "EB 96 TO SB 235 RP",
     "crosses": "ARKANSAS RIVER",
     "location": "0.65 MI E WEST ST",
@@ -4595,6 +5135,8 @@
     "links": {
       "NBI report": "/1204838"
     },
+    "latitude": 37.75369,
+    "longitude": -97.38101,
     "carries": "K96 HWY EB",
     "crosses": "ARKANSAS RIVER",
     "location": "0.57 MI E WEST ST",
@@ -4612,6 +5154,8 @@
     "links": {
       "NBI report": "/1204837"
     },
+    "latitude": 37.75521,
+    "longitude": -97.38115,
     "carries": "K96 HWY WB",
     "crosses": "ARKANSAS RIVER",
     "location": "0.56 MI E WEST ST",
@@ -4629,6 +5173,8 @@
     "links": {
       "NBI report": "/1201054"
     },
+    "latitude": 37.69496,
+    "longitude": -97.34887,
     "carries": "NIMS",
     "crosses": "LITTLE ARKANSAS RIVER",
     "location": "NIMS AT STACKMAN",
@@ -4646,6 +5192,8 @@
     "links": {
       "NBI report": "/1200417"
     },
+    "latitude": 37.66704,
+    "longitude": -97.24444,
     "carries": "ROCK ROAD",
     "crosses": "GYPSUM CREEK",
     "location": "ROCK ROAD& KS. TURNPIKE",
@@ -4663,6 +5211,8 @@
     "links": {
       "NBI report": "/1201019"
     },
+    "latitude": 37.66605,
+    "longitude": -97.21829,
     "carries": "TODD",
     "crosses": "SPRING BRANCH",
     "location": "TODD AT BOSTON",
@@ -4680,6 +5230,8 @@
     "links": {
       "NBI report": "/1200361"
     },
+    "latitude": 37.64169,
+    "longitude": -97.44567,
     "carries": "TYLER ROAD",
     "crosses": "COWSKIN CREEK",
     "location": "TYLER ROAD AT YOSEMITE",
@@ -4697,6 +5249,8 @@
     "links": {
       "NBI report": "/1201130"
     },
+    "latitude": 37.70842,
+    "longitude": -97.23895,
     "carries": "13TH STREET NORTH",
     "crosses": "MIDDLE BRANCH GYPSUM CR",
     "location": "13TH ST. E. OF ROCK RD.",
@@ -4714,6 +5268,8 @@
     "links": {
       "NBI report": "/1204844"
     },
+    "latitude": 37.75583,
+    "longitude": -97.37583,
     "carries": "NB235 TO WB 96 RP",
     "crosses": "ARKANSAS RIVER",
     "location": "0.61 MI E WEST ST",
@@ -4731,6 +5287,8 @@
     "links": {
       "NBI report": "/1204839"
     },
+    "latitude": 37.75374,
+    "longitude": -97.37475,
     "carries": "RP I235NB to K96WB",
     "crosses": "I-235 ,K96 EB HWYS",
     "location": "0.81 MI E WEST ST",
@@ -4748,6 +5306,8 @@
     "links": {
       "NBI report": "/1203238"
     },
+    "latitude": 37.67861,
+    "longitude": -97.33,
     "carries": "US 54 HW EB",
     "crosses": "AT & SF RR & STREETS",
     "location": "0.25 MI E TOPEKA ST",
@@ -4765,6 +5325,8 @@
     "links": {
       "NBI report": "/1205949"
     },
+    "latitude": 37.75675,
+    "longitude": -97.35409,
     "carries": "96 HWY EB EXIT RP",
     "crosses": "I235 HWY",
     "location": "0.89 MI E WEST ST",
@@ -4782,6 +5344,8 @@
     "links": {
       "NBI report": "/1201116"
     },
+    "latitude": 37.65333,
+    "longitude": -97.235,
     "carries": "CHERRY CREEK",
     "crosses": "DRAINAGE",
     "location": "CHERRY CR AND CYPRESS",
@@ -4799,6 +5363,8 @@
     "links": {
       "NBI report": "/1201068"
     },
+    "latitude": 37.66004,
+    "longitude": -97.42893,
     "carries": "EISENHOWER AP PKWY",
     "crosses": "CROSSFIELD ROAD",
     "location": "EISNHWR AP PKWY@CROSSFLD",
@@ -4816,6 +5382,8 @@
     "links": {
       "NBI report": "/1200372"
     },
+    "latitude": 37.66468,
+    "longitude": -97.24363,
     "carries": "HARRY STREET",
     "crosses": "ROCK RD SO TRIB GYPSUM C",
     "location": "HARRY AT ROCK ROAD",
@@ -4833,6 +5401,8 @@
     "links": {
       "NBI report": "/1204841"
     },
+    "latitude": 37.75371,
+    "longitude": -97.38027,
     "carries": "K96 HWY EB",
     "crosses": "I235  & RAMP 3(I235 SB)",
     "location": "0.94 MI E WEST ST",
@@ -4850,6 +5420,8 @@
     "links": {
       "NBI report": "/1204843"
     },
+    "latitude": 37.758,
+    "longitude": -97.37102,
     "carries": "K96 HWY EB",
     "crosses": "URB6351, MERIDAN AVE",
     "location": "1.12 MI E WEST ST",
@@ -4867,6 +5439,8 @@
     "links": {
       "NBI report": "/1204840"
     },
+    "latitude": 37.75706,
+    "longitude": -97.37352,
     "carries": "K96 HWY WB",
     "crosses": "RAMP 3(I235 WL)",
     "location": "0.93 MI E WEST ST",
@@ -4884,6 +5458,8 @@
     "links": {
       "NBI report": "/1204842"
     },
+    "latitude": 37.75612,
+    "longitude": -97.37044,
     "carries": "K96 HWY WB",
     "crosses": "URB6351, MERIDIAN AVE",
     "location": "1.08 MI E WEST ST",
@@ -4901,6 +5477,8 @@
     "links": {
       "NBI report": "/1200368"
     },
+    "latitude": 37.62961,
+    "longitude": -97.37071,
     "carries": "MERIDIAN",
     "crosses": "BIG SLOUGH SOUTH",
     "location": "MERIDIAN AT 35TH SOUTH",
@@ -4918,6 +5496,8 @@
     "links": {
       "NBI report": "/1205950"
     },
+    "latitude": 37.75675,
+    "longitude": -97.35409,
     "carries": "MERIDIAN, NB",
     "crosses": "I235 HWY",
     "location": "3.16 MI NE ZOO BLVD",
@@ -4935,6 +5515,8 @@
     "links": {
       "NBI report": "/1205951"
     },
+    "latitude": 37.75675,
+    "longitude": -97.35409,
     "carries": "MERIDIAN, SB",
     "crosses": "I235 HWY",
     "location": "3.15 MI NE ZOO B",
@@ -4952,6 +5534,8 @@
     "links": {
       "NBI report": "/1203241"
     },
+    "latitude": 37.6725,
+    "longitude": -97.42556,
     "carries": "NB S MID CONT RD",
     "crosses": "US54 WB/EB",
     "location": "JT U54 & S MID CONTINENT",
@@ -4969,6 +5553,8 @@
     "links": {
       "NBI report": "/1200413"
     },
+    "latitude": 37.75167,
+    "longitude": -97.28,
     "carries": "OLIVER",
     "crosses": "TRIB TO E FRK CHISH. CR",
     "location": "OLIVER AT 37TH NORTH",
@@ -4986,6 +5572,8 @@
     "links": {
       "NBI report": "/1203242"
     },
+    "latitude": 37.67249,
+    "longitude": -97.42771,
     "carries": "RP,WB54-SB MIDCN",
     "crosses": "US54& NB MID-CONT. DR",
     "location": "RAMP,WB54-SB MIDCN",
@@ -5003,6 +5591,8 @@
     "links": {
       "NBI report": "/1203240"
     },
+    "latitude": 37.67286,
+    "longitude": -97.42561,
     "carries": "SB S MID CONT RD",
     "crosses": "US54 EB/WB",
     "location": "JT 54 & S MID CONTINENT",
@@ -5020,6 +5610,8 @@
     "links": {
       "NBI report": "/1201053"
     },
+    "latitude": 37.69333,
+    "longitude": -97.22667,
     "carries": "WEBB ROAD",
     "crosses": "TRIB TO GYPSUM CREEK",
     "location": "WEBB AND MELLOR",
@@ -5037,6 +5629,8 @@
     "links": {
       "NBI report": "/1200353"
     },
+    "latitude": 37.63333,
+    "longitude": -97.39,
     "carries": "WEST STREET",
     "crosses": "BIG SLOUGH CREEK",
     "location": "WEST AND CALVERT",
@@ -5054,6 +5648,8 @@
     "links": {
       "NBI report": "/1201067"
     },
+    "latitude": 37.6724,
+    "longitude": -97.42771,
     "carries": "EISENHWR AP PKWY",
     "crosses": "HARRY STREET",
     "location": "EISENHWR AP PKWY  @ HARRY",
@@ -5071,6 +5667,8 @@
     "links": {
       "NBI report": "/1201101"
     },
+    "latitude": 37.71564,
+    "longitude": -97.45377,
     "carries": "17TH STREET NORTH",
     "crosses": "WESTLINK TRIB COWSKIN CR",
     "location": "17TH AT AMARADO",
@@ -5088,6 +5686,8 @@
     "links": {
       "NBI report": "/1200973"
     },
+    "latitude": 37.73756,
+    "longitude": -97.26168,
     "carries": "29TH STREET NORTH",
     "crosses": "E. FORK CHISHOLM CR TR #",
     "location": "29TH ST. N E OF WOODLAWN",
@@ -5105,6 +5705,8 @@
     "links": {
       "NBI report": "/1201003"
     },
+    "latitude": 37.66468,
+    "longitude": -97.25135,
     "carries": "HARRY STREET",
     "crosses": "GYPSUM CREEK",
     "location": "HARRY AT KANSAS TURNPIKE",
@@ -5122,6 +5724,8 @@
     "links": {
       "NBI report": "/1200362"
     },
+    "latitude": 37.67581,
+    "longitude": -97.42742,
     "carries": "MID-CONTINENT RD.",
     "crosses": "HOOVER ST. DR. DUGAN TRI",
     "location": "RIDGE ROAD AT US54",
@@ -5139,6 +5743,8 @@
     "links": {
       "NBI report": "/1201066"
     },
+    "latitude": 37.66951,
+    "longitude": -97.42789,
     "carries": "MID. CON. DR. (NB)",
     "crosses": "BNSF RR",
     "location": "MID. CONT. RD.@ BNSF RR",
@@ -5156,6 +5762,8 @@
     "links": {
       "NBI report": "/1201065"
     },
+    "latitude": 37.66946,
+    "longitude": -97.42836,
     "carries": "MID. CON. DR. (SB)",
     "crosses": "BNSF RR",
     "location": "MID. CONT. RD.@ BNSF RR",
@@ -5173,6 +5781,8 @@
     "links": {
       "NBI report": "/1200997"
     },
+    "latitude": 37.67888,
+    "longitude": -97.48744,
     "carries": "FORESTVIEW",
     "crosses": "MIDDLE FORK CALFSKIN TRI",
     "location": "FORESTVIEW AT MAPLE",
@@ -5190,6 +5800,8 @@
     "links": {
       "NBI report": "/1201121"
     },
+    "latitude": 37.77333,
+    "longitude": -97.3,
     "carries": "HILLSIDE",
     "crosses": "MIDDLE FORK CHISHOLM CR",
     "location": "HILLSIDE N OF 45TH ST. N",
@@ -5207,6 +5819,8 @@
     "links": {
       "NBI report": "/1201159"
     },
+    "latitude": 37.64972,
+    "longitude": -97.48639,
     "carries": "Pawnee",
     "crosses": "Calfskin Creek",
     "location": ".4 M West of 119th",
@@ -5224,6 +5838,8 @@
     "links": {
       "NBI report": "/1200405"
     },
+    "latitude": 37.72287,
+    "longitude": -97.45344,
     "carries": "21ST STREET NORTH",
     "crosses": "WESTLINK TRIB COWSKIN CR",
     "location": "21ST ST. N. AT KEITH",
@@ -5241,6 +5857,8 @@
     "links": {
       "NBI report": "/1200376"
     },
+    "latitude": 37.74699,
+    "longitude": -97.36531,
     "carries": "WOMER",
     "crosses": "WICHITA VALLEY CTR FLDWY",
     "location": "womer S of 37th NORTH",
@@ -5258,6 +5876,8 @@
     "links": {
       "NBI report": "/1200415"
     },
+    "latitude": 37.74697,
+    "longitude": -97.26233,
     "carries": "WOODLAWN",
     "crosses": "E. FORK CHISHOLM CR TR #",
     "location": "WOODLAWN AT 30TH ST. N.",
@@ -5275,6 +5895,8 @@
     "links": {
       "NBI report": "/1200363"
     },
+    "latitude": 37.62251,
+    "longitude": -97.34996,
     "carries": "MAC ARTHUR ROAD",
     "crosses": "BIG SLOUGH SOUTH",
     "location": "MAC ARTHUR E. OF SENECA",
@@ -5292,6 +5914,8 @@
     "links": {
       "NBI report": "/1201149"
     },
+    "latitude": 37.72856,
+    "longitude": -97.33704,
     "carries": "MARKET",
     "crosses": "CHISHOLM CREEK",
     "location": "MARKET AT MARKWAY",
@@ -5309,6 +5933,8 @@
     "links": {
       "NBI report": "/1201006"
     },
+    "latitude": 37.67,
+    "longitude": -97.415,
     "carries": "PUEBLO",
     "crosses": "TRIB TO WVCFLDWY",
     "location": "PUEBLO E OF DUGAN",
@@ -5326,6 +5952,8 @@
     "links": {
       "NBI report": "/1201048"
     },
+    "latitude": 37.70474,
+    "longitude": -97.27759,
     "carries": "11TH STREET NORTH",
     "crosses": "WEST BRANCH DRY CREEK",
     "location": "11TH ST AT WILLIAMSBURG",
@@ -5343,6 +5971,8 @@
     "links": {
       "NBI report": "/1205952"
     },
+    "latitude": 37.75626,
+    "longitude": -97.34493,
     "carries": "I235 HWY, NB",
     "crosses": "ARKANSAS AVE",
     "location": "JCT ARKANSAS AVE/I235, NB",
@@ -5360,6 +5990,8 @@
     "links": {
       "NBI report": "/1200358"
     },
+    "latitude": 37.67167,
+    "longitude": -97.45833,
     "carries": "MAIZE ROAD",
     "crosses": "CALFSKIN CREEK",
     "location": "MAIZE S. of hidden valley",
@@ -5377,6 +6009,8 @@
     "links": {
       "NBI report": "/1201070"
     },
+    "latitude": 37.06667,
+    "longitude": -97.01667,
     "carries": "143RD ST. E",
     "crosses": "SPRING BR. FOURMILE CR",
     "location": "143RD ST. AT TIMBER LAKE",
@@ -5394,6 +6028,8 @@
     "links": {
       "NBI report": "/1201071"
     },
+    "latitude": 37.67833,
+    "longitude": -97.17167,
     "carries": "143RD ST. E",
     "crosses": "SPRING BR. TRIB",
     "location": "143RD ST. S OF KELLOGG",
@@ -5411,6 +6047,8 @@
     "links": {
       "NBI report": "/1200985"
     },
+    "latitude": 37.73636,
+    "longitude": -97.2753,
     "carries": "N BEACON HILL",
     "crosses": "CROOKED CREEK",
     "location": "S OF 29TH ST N",
@@ -5428,6 +6066,8 @@
     "links": {
       "NBI report": "/1200419"
     },
+    "latitude": 37.75931,
+    "longitude": -97.24494,
     "carries": "ROCK ROAD",
     "crosses": "EAST FORK CHISHOLM CR. T",
     "location": "ROCK ROAD AT Champions",
@@ -5445,6 +6085,8 @@
     "links": {
       "NBI report": "/1200406"
     },
+    "latitude": 37.72302,
+    "longitude": -97.23622,
     "carries": "21ST STREET NORTH",
     "crosses": "MIDDLE BRANCH GYPSUM CR.",
     "location": "21 ST. AT REDBRUSH",
@@ -5462,6 +6104,8 @@
     "links": {
       "NBI report": "/1200976"
     },
+    "latitude": 37.69969,
+    "longitude": -97.22959,
     "carries": "GATEWOOD",
     "crosses": "EAST BRANCH GYPSUM CREEK",
     "location": "GATEWOOD AT AUTUMN CHASE",
@@ -5479,6 +6123,8 @@
     "links": {
       "NBI report": "/1201050"
     },
+    "latitude": 37.69568,
+    "longitude": -97.23264,
     "carries": "GATEWOOD",
     "crosses": "EAST BRANCH GYPSUM CREEK",
     "location": "GATEWOOD E. OF LINDEN",
@@ -5496,6 +6142,8 @@
     "links": {
       "NBI report": "/1201104"
     },
+    "latitude": 37.71833,
+    "longitude": -97.22333,
     "carries": "19TH STREET N",
     "crosses": "TRIB TO BEECH LAKE",
     "location": "19TH E OF WEBB",
@@ -5513,6 +6161,8 @@
     "links": {
       "NBI report": "/1201089"
     },
+    "latitude": 37.75226,
+    "longitude": -97.2413,
     "carries": "37TH STREET NORTH",
     "crosses": "EAST FORK CHISHOLM CR TR",
     "location": "37TH ST N .2 M E ROCK RD",
@@ -5530,6 +6180,8 @@
     "links": {
       "NBI report": "/1201020"
     },
+    "latitude": 37.76217,
+    "longitude": -97.24904,
     "carries": "CHAMPIONS CT.",
     "crosses": "EAST FORK CHISHOLM CR.",
     "location": "CHAMPIONS AT CHAMPIONS CT",
@@ -5547,6 +6199,8 @@
     "links": {
       "NBI report": "/1201079"
     },
+    "latitude": 37.66474,
+    "longitude": -97.20119,
     "carries": "HARRY STREET",
     "crosses": "SPRING BRANCH",
     "location": "HARRY .3 M W GREENWICH",
@@ -5564,6 +6218,8 @@
     "links": {
       "NBI report": "/1201080"
     },
+    "latitude": 37.59167,
+    "longitude": -97.35167,
     "carries": "SENECA",
     "crosses": "TRIB TO WVCFLOODWAY",
     "location": "SENECA 500' S OF 55TH",
@@ -5581,6 +6237,8 @@
     "links": {
       "NBI report": "/1201081"
     },
+    "latitude": 37.58,
+    "longitude": -97.35167,
     "carries": "SENECA",
     "crosses": "TRIB TO WVCFLOODWAY",
     "location": "SENECA AND 61ST ST",
@@ -5598,6 +6256,8 @@
     "links": {
       "NBI report": "/1201103"
     },
+    "latitude": 37.67762,
+    "longitude": -97.4292,
     "carries": "UNIVERSITY",
     "crosses": "HOOVER ST. DR. DUGAN TRI",
     "location": "UNIVERSITY AT TAFT",
@@ -5615,6 +6275,8 @@
     "links": {
       "NBI report": "/1201124"
     },
+    "latitude": 37.71235,
+    "longitude": -97.18961,
     "carries": "127TH STREET EAST",
     "crosses": "WEST FORK FOUR MILE CR.",
     "location": "127TH ST E. N OF EDGEWOOD",
@@ -5632,6 +6294,8 @@
     "links": {
       "NBI report": "/1200379"
     },
+    "latitude": 37.69369,
+    "longitude": -97.46724,
     "carries": "CENTRAL",
     "crosses": "COWSKIN CREEK",
     "location": "CENTRAL AT KARREN",
@@ -5649,6 +6313,8 @@
     "links": {
       "NBI report": "/1200396"
     },
+    "latitude": 37.69333,
+    "longitude": -97.49333,
     "carries": "CENTRAL",
     "crosses": "NORTH FORK CALFSKIN CR.",
     "location": "CENTRAL .25 M E 135TH W.",
@@ -5666,6 +6332,8 @@
     "links": {
       "NBI report": "/1205953"
     },
+    "latitude": 37.62828,
+    "longitude": -97.36127,
     "carries": "I235 N&S BND LANES",
     "crosses": "STORM SEWER DRAINAGE",
     "location": "0.43 MI W SENECA ST",
@@ -5683,6 +6351,8 @@
     "links": {
       "NBI report": "/1203244"
     },
+    "latitude": 37.67366,
+    "longitude": -97.38933,
     "carries": "US54/US400 HWY EB",
     "crosses": "WEST ST. & US54 RAMP",
     "location": "US54 & WEST ST",
@@ -5700,6 +6370,8 @@
     "links": {
       "NBI report": "/1203243"
     },
+    "latitude": 37.67352,
+    "longitude": -97.38933,
     "carries": "US54/US400 HWY WB",
     "crosses": "WEST ST. & US54 RAMP",
     "location": "US54 & WEST ST",
@@ -5717,6 +6389,8 @@
     "links": {
       "NBI report": "/1201083"
     },
+    "latitude": 37.73667,
+    "longitude": -97.42,
     "carries": "29TH ST. NORTH",
     "crosses": "BIG SLOUGH CREEK",
     "location": "29TH AND RIDGE ROAD",
@@ -5734,6 +6408,8 @@
     "links": {
       "NBI report": "/1200987"
     },
+    "latitude": 37.74741,
+    "longitude": -97.26091,
     "carries": "34TH STREET NORTH",
     "crosses": "EAST FORK CHISHOLM CR.",
     "location": "34TH ST. N. AT WOODLAWN",
@@ -5751,6 +6427,8 @@
     "links": {
       "NBI report": "/1201155"
     },
+    "latitude": 37.59,
+    "longitude": -97.35167,
     "carries": "60TH ST. SOUTH",
     "crosses": "TRIB TO WVCFLOODWAY",
     "location": "60TH AND SENECA",
@@ -5768,6 +6446,8 @@
     "links": {
       "NBI report": "/1201156"
     },
+    "latitude": 37.58833,
+    "longitude": -97.35167,
     "carries": "61ST ST. SOUTH",
     "crosses": "TRIB TO WVCFLOODWAY",
     "location": "61ST AND SENECA",
@@ -5785,6 +6465,8 @@
     "links": {
       "NBI report": "/1201008"
     },
+    "latitude": 37.66476,
+    "longitude": -97.45738,
     "carries": "HARRY STREET",
     "crosses": "COWSKIN CREEK TRIBUTARY",
     "location": "HARRY .3 M W TYLER",
@@ -5802,6 +6484,8 @@
     "links": {
       "NBI report": "/1200355"
     },
+    "latitude": 37.745,
+    "longitude": -97.42667,
     "carries": "RIDGE ROAD",
     "crosses": "BIG SLOUGH CREEK",
     "location": "RIDGE AND 34TH NORTH",
@@ -5819,6 +6503,8 @@
     "links": {
       "NBI report": "/1200988"
     },
+    "latitude": 37.75224,
+    "longitude": -97.25832,
     "carries": "37TH STREET NORTH",
     "crosses": "EAST FORK CHISHOLM CR.",
     "location": "37TH ST N .3 M E WOODLAWN",
@@ -5836,6 +6522,8 @@
     "links": {
       "NBI report": "/1200995"
     },
+    "latitude": 37.61056,
+    "longitude": -97.3295,
     "carries": "46TH STREET SOUTH",
     "crosses": "BIG SLOUGH SOUTH",
     "location": "EMPORIA CIR. AT SANTA FE",
@@ -5853,6 +6541,8 @@
     "links": {
       "NBI report": "/1204811"
     },
+    "latitude": 37.74346,
+    "longitude": -97.30808,
     "carries": "K-96 HWY",
     "crosses": "STREAM",
     "location": "1.06 MI E OF I135 ON K96",
@@ -5870,6 +6560,8 @@
     "links": {
       "NBI report": "/1200414"
     },
+    "latitude": 37.74696,
+    "longitude": -97.26245,
     "carries": "WOODLAWN",
     "crosses": "E. FORK CHISHOLM CR TR #",
     "location": "WOODLAWN AT 34TH ST.",
@@ -5887,6 +6579,8 @@
     "links": {
       "NBI report": "/1201076"
     },
+    "latitude": 37.68663,
+    "longitude": -97.19088,
     "carries": "DOUGLAS AVENUE",
     "crosses": "SPRING BRANCH TRIB. NO.",
     "location": "DOUGLAS E. OF GARNETT",
@@ -5904,6 +6598,8 @@
     "links": {
       "NBI report": "/1201077"
     },
+    "latitude": 39.37097,
+    "longitude": -99.84023,
     "carries": "GARNETT",
     "crosses": "SPRING BRANCH TRIB. NO.",
     "location": "GARNETT N. OF DOUGLAS",
@@ -5921,6 +6617,8 @@
     "links": {
       "NBI report": "/1201013"
     },
+    "latitude": 37.74944,
+    "longitude": -97.2499,
     "carries": "INWOOD",
     "crosses": "EAST FORK CHISHOLM CR.",
     "location": "INWOOD AT 36TH N.",
@@ -5938,6 +6636,8 @@
     "links": {
       "NBI report": "/1204822"
     },
+    "latitude": 37.74547,
+    "longitude": -97.27645,
     "carries": "K-96 HWY",
     "crosses": "STREAM",
     "location": "1.94 MI E OF I-135/K-96",
@@ -5955,6 +6655,8 @@
     "links": {
       "NBI report": "/1204861"
     },
+    "latitude": 37.74562,
+    "longitude": -97.27052,
     "carries": "K-96 HWY",
     "crosses": "STREAM",
     "location": "0.230 MI E OF OLIVER ST",
@@ -5972,6 +6674,8 @@
     "links": {
       "NBI report": "/1204862"
     },
+    "latitude": 37.74559,
+    "longitude": -97.26365,
     "carries": "K-96 HWY",
     "crosses": "EAST FORK CHISHOLM CREEK",
     "location": "0.92 MI E OF OLIVER ST",
@@ -5989,6 +6693,8 @@
     "links": {
       "NBI report": "/1204846"
     },
+    "latitude": 37.75219,
+    "longitude": -97.3196,
     "carries": "K-96 HWY EB",
     "crosses": "I-135 HWY",
     "location": "SJCT I-135/K-96",
@@ -6006,6 +6712,8 @@
     "links": {
       "NBI report": "/1204852"
     },
+    "latitude": 37.74351,
+    "longitude": -97.31464,
     "carries": "K-96 HWY EB",
     "crosses": "OKT RR",
     "location": "EB K-96 OVER OKT RR",
@@ -6023,6 +6731,8 @@
     "links": {
       "NBI report": "/1204855"
     },
+    "latitude": 37.74369,
+    "longitude": -97.29907,
     "carries": "K-96 HWY EB",
     "crosses": "HILLSIDE ST",
     "location": "K-96 OVER HILLSIDE EB",
@@ -6040,6 +6750,8 @@
     "links": {
       "NBI report": "/1204857"
     },
+    "latitude": 37.74368,
+    "longitude": -97.29347,
     "carries": "K-96 HWY EB",
     "crosses": "UP RAILROAD",
     "location": "K-96 EB OVER UPRR",
@@ -6057,6 +6769,8 @@
     "links": {
       "NBI report": "/1204859"
     },
+    "latitude": 37.74569,
+    "longitude": -97.28055,
     "carries": "K-96 HWY EB",
     "crosses": "OLIVER ST",
     "location": "K-96 OVER OLIVER EB",
@@ -6074,6 +6788,8 @@
     "links": {
       "NBI report": "/1204863"
     },
+    "latitude": 37.74558,
+    "longitude": -97.2623,
     "carries": "K-96 HWY EB",
     "crosses": "WOODLAWN ST",
     "location": "K-96 OVER WOODLAWN EB",
@@ -6091,6 +6807,8 @@
     "links": {
       "NBI report": "/1204865"
     },
+    "latitude": 37.74454,
+    "longitude": -97.24457,
     "carries": "K-96 HWY EB",
     "crosses": "ROCK ROAD ST",
     "location": "K-96 OVER ROCK ROAD EB",
@@ -6108,6 +6826,8 @@
     "links": {
       "NBI report": "/1204867"
     },
+    "latitude": 37.73786,
+    "longitude": -97.22631,
     "carries": "K-96 HWY EB",
     "crosses": "WEBB ROAD",
     "location": "K-96 OVER WEBB ROAD EB",
@@ -6125,6 +6845,8 @@
     "links": {
       "NBI report": "/1204851"
     },
+    "latitude": 37.74331,
+    "longitude": -97.31479,
     "carries": "K-96 HWY EB RAMP",
     "crosses": "OKT RR",
     "location": "RP NE-E OVER  RR",
@@ -6142,6 +6864,8 @@
     "links": {
       "NBI report": "/1204850"
     },
+    "latitude": 37.74352,
+    "longitude": -97.31739,
     "carries": "K-96 HWY SL EB",
     "crosses": "HYDRAULIC ST",
     "location": "K-96 EB OVER HYDRAULIC",
@@ -6159,6 +6883,8 @@
     "links": {
       "NBI report": "/1204847"
     },
+    "latitude": 37.75219,
+    "longitude": -97.31984,
     "carries": "K-96 HWY WB",
     "crosses": "I-135 HWY",
     "location": "SJCT I-135/K-96",
@@ -6176,6 +6902,8 @@
     "links": {
       "NBI report": "/1204849"
     },
+    "latitude": 37.74369,
+    "longitude": -97.31739,
     "carries": "K-96 HWY WB",
     "crosses": "HYDRAULIC ST",
     "location": "K-96 WB OVER HYDRAULIC",
@@ -6193,6 +6921,8 @@
     "links": {
       "NBI report": "/1204853"
     },
+    "latitude": 37.74372,
+    "longitude": -97.31448,
     "carries": "K-96 HWY WB",
     "crosses": "OKT RR",
     "location": "WB K-96 OVER OKT RR",
@@ -6210,6 +6940,8 @@
     "links": {
       "NBI report": "/1204856"
     },
+    "latitude": 37.7435,
+    "longitude": -97.29907,
     "carries": "K-96 HWY WB",
     "crosses": "HILLSIDE ST",
     "location": "K-96 OVER HILLSIDE WB",
@@ -6227,6 +6959,8 @@
     "links": {
       "NBI report": "/1204858"
     },
+    "latitude": 37.74348,
+    "longitude": -97.29427,
     "carries": "K-96 HWY WB",
     "crosses": "UP RAILROAD",
     "location": "K-96 WB OVER UPRR",
@@ -6244,6 +6978,8 @@
     "links": {
       "NBI report": "/1204860"
     },
+    "latitude": 37.74553,
+    "longitude": -97.28055,
     "carries": "K-96 HWY WB",
     "crosses": "OLIVER ST",
     "location": "K-96 OVER OLIVER WB",
@@ -6261,6 +6997,8 @@
     "links": {
       "NBI report": "/1204864"
     },
+    "latitude": 37.7454,
+    "longitude": -97.2623,
     "carries": "K-96 HWY WB",
     "crosses": "WOODLAWN ST",
     "location": "K-96 OVER WOODLAWN WB",
@@ -6278,6 +7016,8 @@
     "links": {
       "NBI report": "/1204866"
     },
+    "latitude": 37.74436,
+    "longitude": -97.24457,
     "carries": "K-96 HWY WB",
     "crosses": "ROCK ROAD ST",
     "location": "K-96 OVER ROCK ROAD WB",
@@ -6295,6 +7035,8 @@
     "links": {
       "NBI report": "/1204868"
     },
+    "latitude": 37.73759,
+    "longitude": -97.2263,
     "carries": "K-96 HWY WB",
     "crosses": "WEBB ROAD",
     "location": "K-96 OVER WEBB ROAD WB",
@@ -6312,6 +7054,8 @@
     "links": {
       "NBI report": "/1204848"
     },
+    "latitude": 37.74403,
+    "longitude": -97.31739,
     "carries": "K-96 HWY WB RAMP",
     "crosses": "HYDRAULIC ST",
     "location": "RP-E-N OVER HYDRAUL 96",
@@ -6329,6 +7073,8 @@
     "links": {
       "NBI report": "/1204854"
     },
+    "latitude": 37.74366,
+    "longitude": -97.31453,
     "carries": "K-96 HWY WB RAMP",
     "crosses": "OKT RR",
     "location": "RAMP E-N OVER OKT RR",
@@ -6346,6 +7092,8 @@
     "links": {
       "NBI report": "/1201014"
     },
+    "latitude": 37.73151,
+    "longitude": -97.42763,
     "carries": "REFLECTION ROAD",
     "crosses": "BIG SLOUGH NORTH TRIB.",
     "location": "REFLECT. RD. AT WILD ROSE",
@@ -6363,6 +7111,8 @@
     "links": {
       "NBI report": "/1201073"
     },
+    "latitude": 37.695,
+    "longitude": -97.18833,
     "carries": "127TH ST. E",
     "crosses": "SPRING CREEK",
     "location": "127TH ST N OF HARRY",
@@ -6380,6 +7130,8 @@
     "links": {
       "NBI report": "/1200986"
     },
+    "latitude": 37.67891,
+    "longitude": -97.48574,
     "carries": "BREEZY POINTE",
     "crosses": "MIDDLE FORK CALFSKIN TRI",
     "location": "BREEZY POINTE AT MAPLE",
@@ -6397,6 +7149,8 @@
     "links": {
       "NBI report": "/1203254"
     },
+    "latitude": 37.67883,
+    "longitude": -97.34069,
     "carries": "US-54 SW RP EB OFF",
     "crosses": "WICHITA ST",
     "location": "0.36 MI E SYCAMORE ST",
@@ -6414,6 +7168,8 @@
     "links": {
       "NBI report": "/1203256"
     },
+    "latitude": 37.67503,
+    "longitude": -97.37363,
     "carries": "US54/US400 HWY EB",
     "crosses": "C6353, MOPAC & SW BLVD",
     "location": "JCT US-54 EB/C6353",
@@ -6431,6 +7187,8 @@
     "links": {
       "NBI report": "/1203258"
     },
+    "latitude": 37.67526,
+    "longitude": -97.37111,
     "carries": "US54/US400 HWY EB",
     "crosses": "MERIDIAN AVE",
     "location": "0.13 MI E K-42, EB",
@@ -6448,6 +7206,8 @@
     "links": {
       "NBI report": "/1203260"
     },
+    "latitude": 37.67705,
+    "longitude": -97.35294,
     "carries": "US54/US400 HWY EB",
     "crosses": "SENECA AVE & US 54 Ramp",
     "location": "JCT SENECA AVE/US54, EB",
@@ -6465,6 +7225,8 @@
     "links": {
       "NBI report": "/1203262"
     },
+    "latitude": 37.67788,
+    "longitude": -97.34689,
     "carries": "US54/US400 HWY EB",
     "crosses": "SYCAMORE ST",
     "location": "JCT SYCAMORE ST/US54 EB",
@@ -6482,6 +7244,8 @@
     "links": {
       "NBI report": "/1203259"
     },
+    "latitude": 37.67688,
+    "longitude": -97.35294,
     "carries": "US54/US400 HWY NL",
     "crosses": "SENECA AVE & US 54 Ramp",
     "location": "JCT SENECA AVE/US54, WB",
@@ -6499,6 +7263,8 @@
     "links": {
       "NBI report": "/1203255"
     },
+    "latitude": 37.67484,
+    "longitude": -97.37382,
     "carries": "US54/US400 HWY WB",
     "crosses": "MOPAC & SW BLVD, EDWARDS",
     "location": "JCT US-54 WB/C6353",
@@ -6516,6 +7282,8 @@
     "links": {
       "NBI report": "/1203257"
     },
+    "latitude": 37.6751,
+    "longitude": -97.37111,
     "carries": "US54/US400 HWY WB",
     "crosses": "MERIDIAN AVE",
     "location": "0.14 MI E K-42, WB",
@@ -6533,6 +7301,8 @@
     "links": {
       "NBI report": "/1203261"
     },
+    "latitude": 37.67809,
+    "longitude": -97.34688,
     "carries": "US54/US400 HWY WB",
     "crosses": "SYCAMORE ST",
     "location": "JCT SYCAMORE ST/US54 WB",
@@ -6550,6 +7320,8 @@
     "links": {
       "NBI report": "/1204877"
     },
+    "latitude": 37.70194,
+    "longitude": -97.17833,
     "carries": "13TH N OVER K-96",
     "crosses": "K-96 HWY",
     "location": "K-96 UNDER 13TH ST NORTH",
@@ -6567,6 +7339,8 @@
     "links": {
       "NBI report": "/1201017"
     },
+    "latitude": 37.73667,
+    "longitude": -97.42833,
     "carries": "29TH STREET NORTH",
     "crosses": "BIG SLOUGH NORTH TRIB.",
     "location": "29TH ST. N  AT WILD ROSE",
@@ -6584,6 +7358,8 @@
     "links": {
       "NBI report": "/1201085"
     },
+    "latitude": 37.68618,
+    "longitude": -97.31299,
     "carries": "DOUGLAS AVENUE",
     "crosses": "WICHITA DRAINAGE CANAL",
     "location": "DOUGLAS AT I -135",
@@ -6601,6 +7377,8 @@
     "links": {
       "NBI report": "/1204882"
     },
+    "latitude": 37.68546,
+    "longitude": -97.18564,
     "carries": "K-96 HWY EB",
     "crosses": "SPRING BRANCH TRIB #4",
     "location": "10.16 MI NE OF I135/K96",
@@ -6618,6 +7396,8 @@
     "links": {
       "NBI report": "/1204881"
     },
+    "latitude": 37.68545,
+    "longitude": -97.18542,
     "carries": "K-96 HWY WB",
     "crosses": "SPRING BRANCH TRIB #4",
     "location": "10.15 MI NE OF I135/K96",
@@ -6635,6 +7415,8 @@
     "links": {
       "NBI report": "/1200360"
     },
+    "latitude": 37.68612,
+    "longitude": -97.46262,
     "carries": "MAIZE ROAD",
     "crosses": "COWSKIN CREEK TRIBUTARY",
     "location": "MAIZE .3 M N. CENTRAL",
@@ -6652,6 +7434,8 @@
     "links": {
       "NBI report": "/1201158"
     },
+    "latitude": 37.67939,
+    "longitude": -97.45619,
     "carries": "MAPLE STREET",
     "crosses": "COWSKIN CREEK",
     "location": "MAPLE AT WAGON WHEEL",
@@ -6669,6 +7453,8 @@
     "links": {
       "NBI report": "/1201018"
     },
+    "latitude": 37.72833,
+    "longitude": -97.445,
     "carries": "STERLING ROAD",
     "crosses": "WESTLINK TRIB COWSKIN CR",
     "location": "STERLING RD. AT BAYTREE",
@@ -6686,6 +7472,8 @@
     "links": {
       "NBI report": "/1203253"
     },
+    "latitude": 37.67899,
+    "longitude": -97.34196,
     "carries": "US-54 HWY EB",
     "crosses": "CITY STS/ARKANSAS RIVER",
     "location": "0.44 MI E SYCAMORE ST",
@@ -6703,6 +7491,8 @@
     "links": {
       "NBI report": "/1203252"
     },
+    "latitude": 37.67882,
+    "longitude": -97.34196,
     "carries": "US-54 HWY WB",
     "crosses": "CITY STS/ARKANSAS RIVER",
     "location": "0.45 MI E SYCAMORE ST",
@@ -6720,6 +7510,8 @@
     "links": {
       "NBI report": "/1203251"
     },
+    "latitude": 37.67892,
+    "longitude": -97.33959,
     "carries": "US-54 NW RMP,WB ON",
     "crosses": "WATER ST",
     "location": "0.39 MI E SYCAMORE ST",
@@ -6737,6 +7529,8 @@
     "links": {
       "NBI report": "/1204870"
     },
+    "latitude": 37.72974,
+    "longitude": -97.20793,
     "carries": "K-96 HWY EB",
     "crosses": "GREENWICH ROAD",
     "location": "K-96 OVER GREENWICH RD-EL",
@@ -6754,6 +7548,8 @@
     "links": {
       "NBI report": "/1204869"
     },
+    "latitude": 37.72992,
+    "longitude": -97.20793,
     "carries": "K-96 HWY WB",
     "crosses": "GREENWICH ROAD",
     "location": "K-96 OVER GREENWICH RD-WB",
@@ -6771,6 +7567,8 @@
     "links": {
       "NBI report": "/1203268"
     },
+    "latitude": 37.67152,
+    "longitude": -97.42123,
     "carries": "DUGAN ROAD",
     "crosses": "WICHITA FLOOD CANAL DRG.",
     "location": "0.51 MI E RIDGE ROAD",
@@ -6788,6 +7586,8 @@
     "links": {
       "NBI report": "/1201072"
     },
+    "latitude": 37.665,
+    "longitude": -97.15833,
     "carries": "HARRY ST",
     "crosses": "SPRING BR FOUR MILE CR",
     "location": "HARRY E OF TAMARISK",
@@ -6805,6 +7605,8 @@
     "links": {
       "NBI report": "/1201106"
     },
+    "latitude": 37.755,
+    "longitude": -97.40833,
     "carries": "JASMINE ST",
     "crosses": "TRIB E FORK CHISH CR",
     "location": "JASMINE AND JASMINE CT",
@@ -6822,6 +7624,8 @@
     "links": {
       "NBI report": "/1200979"
     },
+    "latitude": 37.64419,
+    "longitude": -97.33552,
     "carries": "SOUTH BROADWAY(NB)",
     "crosses": "ARKANSAS RIVER",
     "location": "SOUTH BROADWAY AT CARP ST",
@@ -6839,6 +7643,8 @@
     "links": {
       "NBI report": "/1201082"
     },
+    "latitude": 37.75694,
+    "longitude": -97.245,
     "carries": "THORN ROAD",
     "crosses": "TRIB TO E FK CHISOLM CR",
     "location": "THORN AND ROCK RD",
@@ -6856,6 +7662,8 @@
     "links": {
       "NBI report": "/1203266"
     },
+    "latitude": 37.67272,
+    "longitude": -97.41668,
     "carries": "US-54 HWY EB",
     "crosses": "DUGAN ROAD",
     "location": "US-54 & DUGAN ROAD",
@@ -6873,6 +7681,8 @@
     "links": {
       "NBI report": "/1203265"
     },
+    "latitude": 37.67287,
+    "longitude": -97.41666,
     "carries": "US-54 HWY WB",
     "crosses": "DUGAN ROAD",
     "location": "US-54 & DUGAN ROAD",
@@ -6890,6 +7700,8 @@
     "links": {
       "NBI report": "/1201088"
     },
+    "latitude": 37.71833,
+    "longitude": -97.23667,
     "carries": "WILSON ESTATES",
     "crosses": "TRIB TO GYPSUM CR",
     "location": "WILSON ESTATES & REDBRUSH",
@@ -6907,6 +7719,8 @@
     "links": {
       "NBI report": "/1201154"
     },
+    "latitude": 37.59263,
+    "longitude": -97.45603,
     "carries": "55TH STREET SOUTH",
     "crosses": "SOUTH SENECA DRAINAGE",
     "location": "55TH ST. S .3 M W SENECA",
@@ -6924,6 +7738,8 @@
     "links": {
       "NBI report": "/1201078"
     },
+    "latitude": 37.69805,
+    "longitude": -97.20024,
     "carries": "TIPPERARY",
     "crosses": "SPRING BRANCH TRIB. NO.",
     "location": "TIPPERARY & BRISTOL",
@@ -6941,6 +7757,8 @@
     "links": {
       "NBI report": "/1203267"
     },
+    "latitude": 37.67296,
+    "longitude": -97.40758,
     "carries": "US-54 HWY",
     "crosses": "HOOVER ROAD",
     "location": "0.5 MI E DUGAN ROAD",
@@ -6958,6 +7776,8 @@
     "links": {
       "NBI report": "/1200972"
     },
+    "latitude": 37.69016,
+    "longitude": -97.26846,
     "carries": "29TH ST. N",
     "crosses": "CROOKED CREEK",
     "location": "0.1 MI. E OF OLIVER",
@@ -6975,6 +7795,8 @@
     "links": {
       "NBI report": "/1200351"
     },
+    "latitude": 37.73047,
+    "longitude": -97.42624,
     "carries": "RIDGE ROAD",
     "crosses": "BIG SLOUGH NORTH TRIB.",
     "location": "RIDGE RD S. OF REFLECT RD",
@@ -6992,6 +7814,8 @@
     "links": {
       "NBI report": "/1200352"
     },
+    "latitude": 37.74505,
+    "longitude": -97.42625,
     "carries": "RIDGE ROAD",
     "crosses": "BIG SLOUGH NORTH TRIB.",
     "location": "RIDGE RD .1 M S 29TH N",
@@ -7009,6 +7833,8 @@
     "links": {
       "NBI report": "/1201123"
     },
+    "latitude": 37.71,
+    "longitude": -97.185,
     "carries": "ROCKY CREEK PRKWY",
     "crosses": "WEST FORK FOUR MILE CR.",
     "location": "ROCKY CRK. ENT. N. 13TH",
@@ -7026,6 +7852,8 @@
     "links": {
       "NBI report": "/1200373"
     },
+    "latitude": 37.62626,
+    "longitude": -97.35245,
     "carries": "SENECA",
     "crosses": "BIG SLOUGH SOUTH",
     "location": "SENECA AT CAREY",
@@ -7043,6 +7871,8 @@
     "links": {
       "NBI report": "/1202808"
     },
+    "latitude": 37.64432,
+    "longitude": -97.40305,
     "carries": "K42 HWY EB",
     "crosses": "WICHITA FL CONTR CANAL",
     "location": "0.32 MI SW I235, EB",
@@ -7060,6 +7890,8 @@
     "links": {
       "NBI report": "/1202807"
     },
+    "latitude": 37.64388,
+    "longitude": -97.40425,
     "carries": "K42 HWY WB",
     "crosses": "WICHITA FL CONTR CANAL",
     "location": "0.31 MI SW I235",
@@ -7078,6 +7910,8 @@
       "NBI report": "/1200982",
       "Bridgehunter": "//bridgehunter.com/18515"
     },
+    "latitude": 37.68093,
+    "longitude": -97.3419,
     "carries": "MAPLE STREET",
     "crosses": "ARKANSAS RIVER",
     "location": "MAPLE ST. AT MCLEAN BLVD.",
@@ -7095,6 +7929,8 @@
     "links": {
       "NBI report": "/1201001"
     },
+    "latitude": 37.65738,
+    "longitude": -97.26886,
     "carries": "MT. VERNON",
     "crosses": "GYPSUM CREEK",
     "location": "MT. VERNON AT ROENOKE",
@@ -7112,6 +7948,8 @@
     "links": {
       "NBI report": "/1203269"
     },
+    "latitude": 37.67861,
+    "longitude": -97.28083,
     "carries": "OLIVER",
     "crosses": "US54(KELLOGG)",
     "location": "7.0 M W SEDGWICK ECOLN",
@@ -7129,6 +7967,8 @@
     "links": {
       "NBI report": "/1203270"
     },
+    "latitude": 37.67921,
+    "longitude": -97.27653,
     "carries": "US54 (KELLOG)",
     "crosses": "WEST BRANCH DRY CREEK",
     "location": "6.8 M W SEDGWICK ECOLN",
@@ -7146,6 +7986,8 @@
     "links": {
       "NBI report": "/1203271"
     },
+    "latitude": 37.67922,
+    "longitude": -97.27485,
     "carries": "US54 (KELLOG)",
     "crosses": "EAST BRANCH DRY CREEK",
     "location": "6.7 M W SEDGWICK ECOLN",
@@ -7163,6 +8005,8 @@
     "links": {
       "NBI report": "/1201150"
     },
+    "latitude": 37.7296,
+    "longitude": -97.33832,
     "carries": "25TH STREET NORTH",
     "crosses": "CHISHOLM CREEK",
     "location": "25TH ST. N AT PARK PLACE",
@@ -7181,6 +8025,8 @@
       "NBI report": "/1200377",
       "Bridgehunter": "//bridgehunter.com/18514"
     },
+    "latitude": 37.68547,
+    "longitude": -97.34388,
     "carries": "DOUGLAS AVENUE",
     "crosses": "ARKANSAS RIVER",
     "location": "DOUGLAS AT MCLEAN BLVD.",
@@ -7198,6 +8044,8 @@
     "links": {
       "NBI report": "/1201108"
     },
+    "latitude": 37.67824,
+    "longitude": -97.23654,
     "carries": "EASTERN",
     "crosses": "GYPSUM CREEK",
     "location": "EASTERN AT ORME",
@@ -7215,6 +8063,8 @@
     "links": {
       "NBI report": "/1201035"
     },
+    "latitude": 37.68198,
+    "longitude": -97.15499,
     "carries": "WILLOWBROOK",
     "crosses": "BROOKHAVEN CREEK",
     "location": "WILLOWBROOK AT 159TH E.",
@@ -7232,6 +8082,8 @@
     "links": {
       "NBI report": "/1201163"
     },
+    "latitude": 37.67171,
+    "longitude": -97.48063,
     "carries": "119TH STREET WEST",
     "crosses": "CALFSKIN CREEK",
     "location": "119TH ST W .4 M S MAPLE",
@@ -7249,6 +8101,8 @@
     "links": {
       "NBI report": "/1201105"
     },
+    "latitude": 37.70833,
+    "longitude": -97.225,
     "carries": "13TH STREET N",
     "crosses": "BEECH LAKE",
     "location": "13TH E OF WEBB",
@@ -7266,6 +8120,8 @@
     "links": {
       "NBI report": "/1201062"
     },
+    "latitude": 37.59358,
+    "longitude": -97.32672,
     "carries": "55TH STREET SOUTH",
     "crosses": "BIG SLOUGH SOUTH",
     "location": "55TH ST S AT MEAD",
@@ -7283,6 +8139,8 @@
     "links": {
       "NBI report": "/1201039"
     },
+    "latitude": 37.67193,
+    "longitude": -97.27826,
     "carries": "LINCOLN STREET",
     "crosses": "DRY CREEK",
     "location": "LINCOLN AT ELPYCO",
@@ -7300,6 +8158,8 @@
     "links": {
       "NBI report": "/1201152"
     },
+    "latitude": 37.74488,
+    "longitude": -97.34175,
     "carries": "33RD STREET NORTH",
     "crosses": "CHISHOLM CREEK",
     "location": "33RD ST NO AT WACO",
@@ -7317,6 +8177,8 @@
     "links": {
       "NBI report": "/1200357"
     },
+    "latitude": 37.67833,
+    "longitude": -97.47833,
     "carries": "MAPLE STREET",
     "crosses": "MIDDLE FORK CALFSKIN CR.",
     "location": "MAPLE E. OF BREEZY POINTE",
@@ -7334,6 +8196,8 @@
     "links": {
       "NBI report": "/1201042"
     },
+    "latitude": 37.67667,
+    "longitude": -97.27667,
     "carries": "ORME STREET",
     "crosses": "DRY CREEK",
     "location": "ORME AND PINECREST",
@@ -7351,6 +8215,8 @@
     "links": {
       "NBI report": "/1205234"
     },
+    "latitude": 37.72194,
+    "longitude": -97.31778,
     "carries": "I-135 HIGHWAY, NB",
     "crosses": "21st Street",
     "location": ".09 MI N 21ST STREET",
@@ -7368,6 +8234,8 @@
     "links": {
       "NBI report": "/1205233"
     },
+    "latitude": 37.72167,
+    "longitude": -97.31833,
     "carries": "I-135 HIGHWAY, SB",
     "crosses": "21ST ST",
     "location": ".08 MI N 21ST STREET",
@@ -7385,6 +8253,8 @@
     "links": {
       "NBI report": "/1200969"
     },
+    "latitude": 37.66611,
+    "longitude": -97.45778,
     "carries": "Kellogg Drive (WB)",
     "crosses": "Cowskin Creek",
     "location": "1200ft East of Maize",
@@ -7402,6 +8272,8 @@
     "links": {
       "NBI report": "/1200970"
     },
+    "latitude": 37.665,
+    "longitude": -97.4575,
     "carries": "Kellogg Drive (EB)",
     "crosses": "Cowskin Creek",
     "location": "1200ft East of Maize",
@@ -7419,6 +8291,8 @@
     "links": {
       "NBI report": "/1203282"
     },
+    "latitude": 37.67889,
+    "longitude": -97.23583,
     "carries": "US54 / US400 HWY",
     "crosses": "GYPSUM CREEK",
     "location": "0.08 MI E EASTERN ST",
@@ -7436,6 +8310,8 @@
     "links": {
       "NBI report": "/1200356"
     },
+    "latitude": 37.715,
+    "longitude": -97.225,
     "carries": "WATERFONT PARKWAY",
     "crosses": "EAST BR. GYPSUM CREEK",
     "location": "WATERFRONT PRK E OF WEBB",
@@ -7453,6 +8329,8 @@
     "links": {
       "NBI report": "/1200975"
     },
+    "latitude": 37.61333,
+    "longitude": -97.37333,
     "carries": "43RD ST. SOUTH",
     "crosses": "LOCAL DRAINAGE",
     "location": "43RD ST. S W OF MERIDIAN",
@@ -7470,6 +8348,8 @@
     "links": {
       "NBI report": "/1201126"
     },
+    "latitude": 37.72333,
+    "longitude": -97.18333,
     "carries": "GLEN WOOD",
     "crosses": "TRIB TO FOUR MILE CR",
     "location": "GLENWOOD S 21ST ST N",
@@ -7487,6 +8367,8 @@
     "links": {
       "NBI report": "/1203277"
     },
+    "latitude": 37.98722,
+    "longitude": -97.40528,
     "carries": "US-54 HIGHWAY EB",
     "crosses": "TYLER ROAD",
     "location": "US-54 HWY OVER TYLER ROAD",
@@ -7504,6 +8386,8 @@
     "links": {
       "NBI report": "/1203276"
     },
+    "latitude": 37.98722,
+    "longitude": -97.40528,
     "carries": "US-54 HIGHWAY WB",
     "crosses": "TYLER ROAD",
     "location": "US-54 HWY OVER TYLER ROAD",
@@ -7521,6 +8405,8 @@
     "links": {
       "NBI report": "/1203274"
     },
+    "latitude": 37.65972,
+    "longitude": -97.45222,
     "carries": "US-54 HIGHWAY, EB",
     "crosses": "COWSKIN CREEK",
     "location": ".2 MI E MAIZE ROAD",
@@ -7538,6 +8424,8 @@
     "links": {
       "NBI report": "/1203275"
     },
+    "latitude": 37.65972,
+    "longitude": -97.45222,
     "carries": "US-54 HIGHWAY, WB",
     "crosses": "COWSKIN CREEK",
     "location": ".2 MI E MAIZE ROAD",
@@ -7555,6 +8443,8 @@
     "links": {
       "NBI report": "/1203272"
     },
+    "latitude": 37.67528,
+    "longitude": -97.45944,
     "carries": "US54 (KELLOGG) WB",
     "crosses": "MAIZE ROAD",
     "location": "US-54/MAIZE ROAD JUNCTION",
@@ -7572,6 +8462,8 @@
     "links": {
       "NBI report": "/1203273"
     },
+    "latitude": 37.67528,
+    "longitude": -97.45944,
     "carries": "US54 HWY, EB",
     "crosses": "MAIZE ROAD",
     "location": "US-54/MAIZE ROAD JUNCTION",
@@ -7589,6 +8481,8 @@
     "links": {
       "NBI report": "/1201102"
     },
+    "latitude": 37.70833,
+    "longitude": -97.485,
     "carries": "13TH ST. N",
     "crosses": "COWSKIN CREEK",
     "location": "13TH W. OF 119TH ST. W",
@@ -7606,6 +8500,8 @@
     "links": {
       "NBI report": "/1201098"
     },
+    "latitude": 37.70096,
+    "longitude": -97.45261,
     "carries": "9th Street North",
     "crosses": "Westlink Tributary",
     "location": "9th Street at Westlink",
@@ -7623,6 +8519,8 @@
     "links": {
       "NBI report": "/1201074"
     },
+    "latitude": 37.675,
+    "longitude": -97.20833,
     "carries": "FAWN GROVE",
     "crosses": "SPRING BRANCH",
     "location": "FAWN GROVE W OF GREENWICH",
@@ -7640,6 +8538,8 @@
     "links": {
       "NBI report": "/1201125"
     },
+    "latitude": 37.71833,
+    "longitude": -97.20833,
     "carries": "GREENWICH ROAD",
     "crosses": "WEST FORK FOUR MILE CR",
     "location": ".25M SOUTH OF 21ST ST. N",
@@ -7657,6 +8557,8 @@
     "links": {
       "NBI report": "/1201011"
     },
+    "latitude": 37.70167,
+    "longitude": -97.49833,
     "carries": "LOST CREEK",
     "crosses": "DRAINAGE",
     "location": "LOST CR W OF 135TH ST. W",
@@ -7674,6 +8576,8 @@
     "links": {
       "NBI report": "/1201075"
     },
+    "latitude": 37.66667,
+    "longitude": -97.215,
     "carries": "SHILOH",
     "crosses": "ROCK ROAD S. TRIB GYPSUM",
     "location": "SHILOH N OF HARRY",
@@ -7691,6 +8595,8 @@
     "links": {
       "NBI report": "/1201127"
     },
+    "latitude": 37.725,
+    "longitude": -97.18167,
     "carries": "WILLIAMSGATE",
     "crosses": "Trib to Fourmile Creek",
     "location": "WILLIAMSGATE,ROSEMONT CIR",
@@ -7708,6 +8614,8 @@
     "links": {
       "NBI report": "/1200354"
     },
+    "latitude": 37.74667,
+    "longitude": -97.42167,
     "carries": "34TH ST. N",
     "crosses": "TRIB TO BIG SLOUGH",
     "location": ".25M EAST OF RIDGE ROAD",
@@ -7725,6 +8633,8 @@
     "links": {
       "NBI report": "/1201120"
     },
+    "latitude": 37.76667,
+    "longitude": -97.30833,
     "carries": "45TH ST. NORTH",
     "crosses": "MIDDLE FORK CHISHOLM CR",
     "location": "45TH ST. N W OF HILLSIDE",
@@ -7742,6 +8652,8 @@
     "links": {
       "NBI report": "/1201110"
     },
+    "latitude": 37.6721,
+    "longitude": -97.25007,
     "carries": "ARMOUR ROAD",
     "crosses": "ARMOUR BRANCH GYPSUM CR",
     "location": "ARMOUR AT KELLOGG",
@@ -7759,6 +8671,8 @@
     "links": {
       "NBI report": "/1200989"
     },
+    "latitude": 37.665,
+    "longitude": -97.15833,
     "carries": "AUBURN HILLS",
     "crosses": "TRIB TO CALFSKIN CREEK",
     "location": "AUBURN HILLS S MONTEREY",
@@ -7776,6 +8690,8 @@
     "links": {
       "NBI report": "/1201128"
     },
+    "latitude": 37.72833,
+    "longitude": -97.18167,
     "carries": "CAMDEN CHASE",
     "crosses": "Trib to Fourmile Creek",
     "location": "CAMDEN CHASE,WILLIAMSGATE",
@@ -7793,6 +8709,8 @@
     "links": {
       "NBI report": "/1201021"
     },
+    "latitude": 37.77,
+    "longitude": -97.22167,
     "carries": "SPYGLASS",
     "crosses": "LOCAL DRAINAGE",
     "location": "SPYGLASS AT BLADE",
@@ -7810,6 +8728,8 @@
     "links": {
       "NBI report": "/1203279"
     },
+    "latitude": 37.67917,
+    "longitude": -97.26194,
     "carries": "C6575-WOODLAWN ST",
     "crosses": "US-54 HWY",
     "location": "7.7 M W SEDWICK E COLN",
@@ -7827,6 +8747,8 @@
     "links": {
       "NBI report": "/1203278"
     },
+    "latitude": 37.67917,
+    "longitude": -97.27111,
     "carries": "EDGEMOOR ST",
     "crosses": "US-54 HWY",
     "location": "7.2 M W SEDGWICK E COLN",
@@ -7844,6 +8766,8 @@
     "links": {
       "NBI report": "/1201129"
     },
+    "latitude": 37.73,
+    "longitude": -97.18167,
     "carries": "MAINSGATE",
     "crosses": "Trib to Fourmile Creek",
     "location": "MAINSGATE AT WILLIAMSGATE",
@@ -7861,6 +8785,8 @@
     "links": {
       "NBI report": "/1203281"
     },
+    "latitude": 37.67889,
+    "longitude": -97.23639,
     "carries": "US-54 HWY EB",
     "crosses": "EASTERN ST",
     "location": "US-54 & EASTERN ST",
@@ -7878,6 +8804,8 @@
     "links": {
       "NBI report": "/1203280"
     },
+    "latitude": 37.67917,
+    "longitude": -97.23556,
     "carries": "US-54 HWY WB",
     "crosses": "EASTERN ST",
     "location": "US-54 & EASTERN ST",
@@ -7895,6 +8823,8 @@
     "links": {
       "NBI report": "/1200998"
     },
+    "latitude": 37.642,
+    "longitude": -97.29878,
     "carries": "HILLSIDE AVENUE",
     "crosses": "GYPSUM CREEK",
     "location": "HILLSIDE AT WASSALL",
@@ -7912,6 +8842,8 @@
     "links": {
       "NBI report": "/1200971"
     },
+    "latitude": 37.66361,
+    "longitude": -97.4875,
     "carries": "Kellogg Drive (S)",
     "crosses": "Calfskin Creek",
     "location": "2000' West of 119th",
@@ -7929,6 +8861,8 @@
     "links": {
       "NBI report": "/1201064"
     },
+    "latitude": 37.6369,
+    "longitude": -97.36174,
     "carries": "31ST STREET SOUTH",
     "crosses": "BIG SLOUGH SOUTH TRIB.",
     "location": "31ST ST S AT GLENN",
