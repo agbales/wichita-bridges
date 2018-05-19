@@ -1,7 +1,11 @@
 const locations = bridge_data.map(function(b) {
-  mapEntry = [];
+  var mapEntry = [];
+  var info = "<b>Built In: </b>" + b.year_build + "<br>" +
+             "<b>Span Length: </b>" + b.span_length + " ft<br>" +
+             "<b>Total Length: </b>" + b.total_length + " ft<br>" +
+             "<b>Condition: </b>" + b.considtion + "<br>";
   mapEntry.push(
-    b.crosses,
+    info,
     b.latitude,
     b.longitude,
     b.id
