@@ -3,7 +3,8 @@ const locations = bridge_data.map(function(b) {
   var info = "<b>Built In: </b>" + b.year_build + "<br>" +
              "<b>Span Length: </b>" + b.span_length + " ft<br>" +
              "<b>Total Length: </b>" + b.total_length + " ft<br>" +
-             "<b>Condition: </b>" + b.considtion + "<br>";
+             "<b>Condition: </b>" + b.considtion + "<br>" +
+             "<b>Design: </b>" + b.design + "<br>";
   mapEntry.push(
     info,
     b.latitude,
